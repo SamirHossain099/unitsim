@@ -43,6 +43,12 @@ packages = ["src/unitsim"]
 [tool.hatch.build.targets.sdist]
 only-include = ["src/unitsim"]
 
+# The staged public repo and its anonymised twin hold copies of these tests; collecting both breaks on
+# duplicate module names. The project runs its own tests only.
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["public-repo", "public-repo-anon", ".venv", "dist", "build"]
+
 [tool.ruff]
 line-length = 100
 target-version = "py310"
