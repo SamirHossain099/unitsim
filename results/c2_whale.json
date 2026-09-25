@@ -1,0 +1,74 @@
+{
+  "script": "exp_c2_label_error.py",
+  "args": {
+    "datasets": 30,
+    "laws": [
+      "zipf",
+      "uniform"
+    ],
+    "brevity": [
+      1,
+      0
+    ],
+    "repeats": [
+      1.0,
+      5.0
+    ],
+    "threshold": 0.5,
+    "n_words": 100,
+    "n_elements": 30,
+    "length_range": [
+      2,
+      6
+    ],
+    "base_seed": 20260914,
+    "out": "N:\\Projects\\animal_speech\\01-unit-recovery-sim\\results\\c2_whale.csv"
+  },
+  "conditions": [
+    "clean",
+    "confuse_6.7",
+    "confuse_19.19",
+    "oversplit_25",
+    "undersplit_25"
+  ],
+  "whale_years": [
+    [
+      4,
+      1053
+    ],
+    [
+      6,
+      2028
+    ],
+    [
+      6,
+      3351
+    ],
+    [
+      6,
+      2664
+    ],
+    [
+      7,
+      5765
+    ],
+    [
+      12,
+      13251
+    ],
+    [
+      7,
+      8469
+    ],
+    [
+      7,
+      9179
+    ]
+  ],
+  "unitsim_version": "0.1.0.dev0",
+  "numpy": "2.5.3",
+  "python": "3.12.10",
+  "runtime_s": 37.5,
+  "finished": "2026-09-12 18:13:19",
+  "rows": 1200
+}

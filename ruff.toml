@@ -1,0 +1,13 @@
+line-length = 100
+target-version = "py310"
+
+[lint]
+select = ["E", "F", "W", "I", "UP"]
+ignore = [
+    "E501",   # line length handled above
+    "E402",   # resources MUST be imported before numpy in entry points, by design
+]
+
+[lint.isort]
+known-first-party = ["unitsim"]
+known-local-folder = ["resources"]

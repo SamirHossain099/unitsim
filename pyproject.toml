@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unitsim"
+version = "0.1.0.dev0"
+description = "Ground-truth simulation for unit discovery and sequence statistics in animal vocal communication"
+readme = "src/unitsim/README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Samir Hossain" }]
+keywords = [
+    "bioacoustics", "animal communication", "segmentation", "Zipf's law", "power law",
+    "transitional probability", "unit discovery", "simulation", "ground truth",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+# The library needs numpy and scipy only. Clustering, plotting and the reference power-law package
+# are extras, so installing the simulator does not pull umap-learn and its numba toolchain.
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.9",
+]
+
+[project.optional-dependencies]
+cluster = ["umap-learn>=0.5", "scikit-learn>=1.3"]
+analysis = ["pandas>=1.5", "matplotlib>=3.6"]
+# Used only by tests, to cross-check our power-law fit against the reference implementation.
+crosscheck = ["powerlaw>=1.5"]
+dev = ["pytest>=7", "ruff>=0.4", "build>=1.0", "scikit-learn>=1.3"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/unitsim"]
+
+# ALLOWLIST. This pyproject sits inside the research project, beside NOVELTY.md, CLAUDE.md, refs/
+# and results/. The default sdist would sweep all of them in. tests/test_packaging.py enforces it.
+[tool.hatch.build.targets.sdist]
+only-include = ["src/unitsim"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

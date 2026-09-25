@@ -1,0 +1,1492 @@
+{
+  "source": "calibration_song.csv",
+  "holdout_source": "calibration_song.csv",
+  "regime": "song",
+  "n_reference": 4000,
+  "n_holdout": 4000,
+  "all_features": {
+    "features": [
+      "observed_mean_r2",
+      "observed_mean_slope",
+      "observed_mean_unit_types",
+      "cuts_per_sequence"
+    ],
+    "reference_n": {
+      "geometric": 1000,
+      "lognormal": 1000,
+      "uniform": 1000,
+      "zipf": 1000
+    },
+    "at_0.5": {
+      "n": 4000,
+      "accuracy": 0.61875,
+      "chance": 0.25,
+      "mean_confidence": 0.5871814768960255,
+      "brier": 0.4946504357663829,
+      "min_probability": 0.5,
+      "share_decided": 0.56975,
+      "accuracy_when_decided": 0.7481351469942957,
+      "per_law": {
+        "geometric": {
+          "auc": 0.797906,
+          "recall": 0.574,
+          "n": 1000
+        },
+        "lognormal": {
+          "auc": 0.750378,
+          "recall": 0.342,
+          "n": 1000
+        },
+        "uniform": {
+          "auc": 0.967539,
+          "recall": 0.885,
+          "n": 1000
+        },
+        "zipf": {
+          "auc": 0.8437093333333333,
+          "recall": 0.674,
+          "n": 1000
+        }
+      },
+      "confusion": {
+        "geometric": {
+          "geometric": 574,
+          "lognormal": 107,
+          "uniform": 125,
+          "zipf": 194
+        },
+        "lognormal": {
+          "geometric": 261,
+          "lognormal": 342,
+          "uniform": 83,
+          "zipf": 314
+        },
+        "uniform": {
+          "geometric": 76,
+          "lognormal": 3,
+          "uniform": 885,
+          "zipf": 36
+        },
+        "zipf": {
+          "geometric": 188,
+          "lognormal": 107,
+          "uniform": 31,
+          "zipf": 674
+        }
+      },
+      "reliability": [
+        {
+          "from": 0.26307470847496806,
+          "to": 0.4104597667799744,
+          "n": 750,
+          "mean_confidence": 0.36695048250994083,
+          "share_correct": 0.384
+        },
+        {
+          "from": 0.4104597667799744,
+          "to": 0.5578448250849808,
+          "n": 1488,
+          "mean_confidence": 0.48176636648603194,
+          "share_correct": 0.5181451612903226
+        },
+        {
+          "from": 0.5578448250849808,
+          "to": 0.7052298833899873,
+          "n": 778,
+          "mean_confidence": 0.6207703719220775,
+          "share_correct": 0.6580976863753213
+        },
+        {
+          "from": 0.7052298833899873,
+          "to": 0.8526149416949936,
+          "n": 376,
+          "mean_confidence": 0.7766416437934226,
+          "share_correct": 0.8457446808510638
+        },
+        {
+          "from": 0.8526149416949936,
+          "to": 1.0,
+          "n": 608,
+          "mean_confidence": 0.9566909291919865,
+          "share_correct": 0.9638157894736842
+        }
+      ]
+    },
+    "at_0.7": {
+      "n": 4000,
+      "accuracy": 0.61875,
+      "chance": 0.25,
+      "mean_confidence": 0.5871814768960255,
+      "brier": 0.4946504357663829,
+      "min_probability": 0.7,
+      "share_decided": 0.2505,
+      "accuracy_when_decided": 0.9171656686626747,
+      "per_law": {
+        "geometric": {
+          "auc": 0.797906,
+          "recall": 0.574,
+          "n": 1000
+        },
+        "lognormal": {
+          "auc": 0.750378,
+          "recall": 0.342,
+          "n": 1000
+        },
+        "uniform": {
+          "auc": 0.967539,
+          "recall": 0.885,
+          "n": 1000
+        },
+        "zipf": {
+          "auc": 0.8437093333333333,
+          "recall": 0.674,
+          "n": 1000
+        }
+      },
+      "confusion": {
+        "geometric": {
+          "geometric": 574,
+          "lognormal": 107,
+          "uniform": 125,
+          "zipf": 194
+        },
+        "lognormal": {
+          "geometric": 261,
+          "lognormal": 342,
+          "uniform": 83,
+          "zipf": 314
+        },
+        "uniform": {
+          "geometric": 76,
+          "lognormal": 3,
+          "uniform": 885,
+          "zipf": 36
+        },
+        "zipf": {
+          "geometric": 188,
+          "lognormal": 107,
+          "uniform": 31,
+          "zipf": 674
+        }
+      },
+      "reliability": [
+        {
+          "from": 0.26307470847496806,
+          "to": 0.4104597667799744,
+          "n": 750,
+          "mean_confidence": 0.36695048250994083,
+          "share_correct": 0.384
+        },
+        {
+          "from": 0.4104597667799744,
+          "to": 0.5578448250849808,
+          "n": 1488,
+          "mean_confidence": 0.48176636648603194,
+          "share_correct": 0.5181451612903226
+        },
+        {
+          "from": 0.5578448250849808,
+          "to": 0.7052298833899873,
+          "n": 778,
+          "mean_confidence": 0.6207703719220775,
+          "share_correct": 0.6580976863753213
+        },
+        {
+          "from": 0.7052298833899873,
+          "to": 0.8526149416949936,
+          "n": 376,
+          "mean_confidence": 0.7766416437934226,
+          "share_correct": 0.8457446808510638
+        },
+        {
+          "from": 0.8526149416949936,
+          "to": 1.0,
+          "n": 608,
+          "mean_confidence": 0.9566909291919865,
+          "share_correct": 0.9638157894736842
+        }
+      ]
+    },
+    "at_0.9": {
+      "n": 4000,
+      "accuracy": 0.61875,
+      "chance": 0.25,
+      "mean_confidence": 0.5871814768960255,
+      "brier": 0.4946504357663829,
+      "min_probability": 0.9,
+      "share_decided": 0.127,
+      "accuracy_when_decided": 0.9724409448818898,
+      "per_law": {
+        "geometric": {
+          "auc": 0.797906,
+          "recall": 0.574,
+          "n": 1000
+        },
+        "lognormal": {
+          "auc": 0.750378,
+          "recall": 0.342,
+          "n": 1000
+        },
+        "uniform": {
+          "auc": 0.967539,
+          "recall": 0.885,
+          "n": 1000
+        },
+        "zipf": {
+          "auc": 0.8437093333333333,
+          "recall": 0.674,
+          "n": 1000
+        }
+      },
+      "confusion": {
+        "geometric": {
+          "geometric": 574,
+          "lognormal": 107,
+          "uniform": 125,
+          "zipf": 194
+        },
+        "lognormal": {
+          "geometric": 261,
+          "lognormal": 342,
+          "uniform": 83,
+          "zipf": 314
+        },
+        "uniform": {
+          "geometric": 76,
+          "lognormal": 3,
+          "uniform": 885,
+          "zipf": 36
+        },
+        "zipf": {
+          "geometric": 188,
+          "lognormal": 107,
+          "uniform": 31,
+          "zipf": 674
+        }
+      },
+      "reliability": [
+        {
+          "from": 0.26307470847496806,
+          "to": 0.4104597667799744,
+          "n": 750,
+          "mean_confidence": 0.36695048250994083,
+          "share_correct": 0.384
+        },
+        {
+          "from": 0.4104597667799744,
+          "to": 0.5578448250849808,
+          "n": 1488,
+          "mean_confidence": 0.48176636648603194,
+          "share_correct": 0.5181451612903226
+        },
+        {
+          "from": 0.5578448250849808,
+          "to": 0.7052298833899873,
+          "n": 778,
+          "mean_confidence": 0.6207703719220775,
+          "share_correct": 0.6580976863753213
+        },
+        {
+          "from": 0.7052298833899873,
+          "to": 0.8526149416949936,
+          "n": 376,
+          "mean_confidence": 0.7766416437934226,
+          "share_correct": 0.8457446808510638
+        },
+        {
+          "from": 0.8526149416949936,
+          "to": 1.0,
+          "n": 608,
+          "mean_confidence": 0.9566909291919865,
+          "share_correct": 0.9638157894736842
+        }
+      ]
+    }
+  },
+  "ablation": {
+    "observed_mean_r2": {
+      "features": [
+        "observed_mean_r2"
+      ],
+      "reference_n": {
+        "geometric": 1000,
+        "lognormal": 1000,
+        "uniform": 1000,
+        "zipf": 1000
+      },
+      "at_0.5": {
+        "n": 4000,
+        "accuracy": 0.438,
+        "chance": 0.25,
+        "mean_confidence": 0.44316487164488577,
+        "brier": 0.6354043307858727,
+        "min_probability": 0.5,
+        "share_decided": 0.1985,
+        "accuracy_when_decided": 0.7556675062972292,
+        "per_law": {
+          "geometric": {
+            "auc": 0.6178366666666667,
+            "recall": 0.001,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.6836223333333333,
+            "recall": 0.401,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.9016206666666666,
+            "recall": 0.821,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.651341,
+            "recall": 0.529,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 1,
+            "lognormal": 338,
+            "uniform": 229,
+            "zipf": 432
+          },
+          "lognormal": {
+            "geometric": 1,
+            "lognormal": 401,
+            "uniform": 161,
+            "zipf": 437
+          },
+          "uniform": {
+            "geometric": 0,
+            "lognormal": 7,
+            "uniform": 821,
+            "zipf": 172
+          },
+          "zipf": {
+            "geometric": 0,
+            "lognormal": 261,
+            "uniform": 210,
+            "zipf": 529
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2572485057967132,
+            "to": 0.40579880463737056,
+            "n": 2578,
+            "mean_confidence": 0.34924837936948006,
+            "share_correct": 0.34639255236617533
+          },
+          {
+            "from": 0.40579880463737056,
+            "to": 0.5543491034780279,
+            "n": 723,
+            "mean_confidence": 0.4497880714828618,
+            "share_correct": 0.42738589211618255
+          },
+          {
+            "from": 0.5543491034780279,
+            "to": 0.7028994023186852,
+            "n": 238,
+            "mean_confidence": 0.6238345521584854,
+            "share_correct": 0.6050420168067226
+          },
+          {
+            "from": 0.7028994023186852,
+            "to": 0.8514497011593426,
+            "n": 202,
+            "mean_confidence": 0.7605562697191595,
+            "share_correct": 0.8168316831683168
+          },
+          {
+            "from": 0.8514497011593426,
+            "to": 1.0,
+            "n": 259,
+            "mean_confidence": 0.945928181412836,
+            "share_correct": 0.9305019305019305
+          }
+        ]
+      },
+      "at_0.7": {
+        "n": 4000,
+        "accuracy": 0.438,
+        "chance": 0.25,
+        "mean_confidence": 0.44316487164488577,
+        "brier": 0.6354043307858727,
+        "min_probability": 0.7,
+        "share_decided": 0.11575,
+        "accuracy_when_decided": 0.8790496760259179,
+        "per_law": {
+          "geometric": {
+            "auc": 0.6178366666666667,
+            "recall": 0.001,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.6836223333333333,
+            "recall": 0.401,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.9016206666666666,
+            "recall": 0.821,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.651341,
+            "recall": 0.529,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 1,
+            "lognormal": 338,
+            "uniform": 229,
+            "zipf": 432
+          },
+          "lognormal": {
+            "geometric": 1,
+            "lognormal": 401,
+            "uniform": 161,
+            "zipf": 437
+          },
+          "uniform": {
+            "geometric": 0,
+            "lognormal": 7,
+            "uniform": 821,
+            "zipf": 172
+          },
+          "zipf": {
+            "geometric": 0,
+            "lognormal": 261,
+            "uniform": 210,
+            "zipf": 529
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2572485057967132,
+            "to": 0.40579880463737056,
+            "n": 2578,
+            "mean_confidence": 0.34924837936948006,
+            "share_correct": 0.34639255236617533
+          },
+          {
+            "from": 0.40579880463737056,
+            "to": 0.5543491034780279,
+            "n": 723,
+            "mean_confidence": 0.4497880714828618,
+            "share_correct": 0.42738589211618255
+          },
+          {
+            "from": 0.5543491034780279,
+            "to": 0.7028994023186852,
+            "n": 238,
+            "mean_confidence": 0.6238345521584854,
+            "share_correct": 0.6050420168067226
+          },
+          {
+            "from": 0.7028994023186852,
+            "to": 0.8514497011593426,
+            "n": 202,
+            "mean_confidence": 0.7605562697191595,
+            "share_correct": 0.8168316831683168
+          },
+          {
+            "from": 0.8514497011593426,
+            "to": 1.0,
+            "n": 259,
+            "mean_confidence": 0.945928181412836,
+            "share_correct": 0.9305019305019305
+          }
+        ]
+      },
+      "at_0.9": {
+        "n": 4000,
+        "accuracy": 0.438,
+        "chance": 0.25,
+        "mean_confidence": 0.44316487164488577,
+        "brier": 0.6354043307858727,
+        "min_probability": 0.9,
+        "share_decided": 0.05875,
+        "accuracy_when_decided": 0.9319148936170213,
+        "per_law": {
+          "geometric": {
+            "auc": 0.6178366666666667,
+            "recall": 0.001,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.6836223333333333,
+            "recall": 0.401,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.9016206666666666,
+            "recall": 0.821,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.651341,
+            "recall": 0.529,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 1,
+            "lognormal": 338,
+            "uniform": 229,
+            "zipf": 432
+          },
+          "lognormal": {
+            "geometric": 1,
+            "lognormal": 401,
+            "uniform": 161,
+            "zipf": 437
+          },
+          "uniform": {
+            "geometric": 0,
+            "lognormal": 7,
+            "uniform": 821,
+            "zipf": 172
+          },
+          "zipf": {
+            "geometric": 0,
+            "lognormal": 261,
+            "uniform": 210,
+            "zipf": 529
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2572485057967132,
+            "to": 0.40579880463737056,
+            "n": 2578,
+            "mean_confidence": 0.34924837936948006,
+            "share_correct": 0.34639255236617533
+          },
+          {
+            "from": 0.40579880463737056,
+            "to": 0.5543491034780279,
+            "n": 723,
+            "mean_confidence": 0.4497880714828618,
+            "share_correct": 0.42738589211618255
+          },
+          {
+            "from": 0.5543491034780279,
+            "to": 0.7028994023186852,
+            "n": 238,
+            "mean_confidence": 0.6238345521584854,
+            "share_correct": 0.6050420168067226
+          },
+          {
+            "from": 0.7028994023186852,
+            "to": 0.8514497011593426,
+            "n": 202,
+            "mean_confidence": 0.7605562697191595,
+            "share_correct": 0.8168316831683168
+          },
+          {
+            "from": 0.8514497011593426,
+            "to": 1.0,
+            "n": 259,
+            "mean_confidence": 0.945928181412836,
+            "share_correct": 0.9305019305019305
+          }
+        ]
+      }
+    },
+    "observed_mean_slope": {
+      "features": [
+        "observed_mean_slope"
+      ],
+      "reference_n": {
+        "geometric": 1000,
+        "lognormal": 1000,
+        "uniform": 1000,
+        "zipf": 1000
+      },
+      "at_0.5": {
+        "n": 4000,
+        "accuracy": 0.346,
+        "chance": 0.25,
+        "mean_confidence": 0.3366057838098175,
+        "brier": 0.7260132401540202,
+        "min_probability": 0.5,
+        "share_decided": 0.02075,
+        "accuracy_when_decided": 0.6506024096385542,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5938146666666667,
+            "recall": 0.404,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.5933426666666667,
+            "recall": 0.355,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.619247,
+            "recall": 0.303,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.6265456666666667,
+            "recall": 0.322,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 404,
+            "lognormal": 262,
+            "uniform": 214,
+            "zipf": 120
+          },
+          "lognormal": {
+            "geometric": 320,
+            "lognormal": 355,
+            "uniform": 137,
+            "zipf": 188
+          },
+          "uniform": {
+            "geometric": 297,
+            "lognormal": 199,
+            "uniform": 303,
+            "zipf": 201
+          },
+          "zipf": {
+            "geometric": 279,
+            "lognormal": 294,
+            "uniform": 105,
+            "zipf": 322
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2817033838319725,
+            "to": 0.425362707065578,
+            "n": 3545,
+            "mean_confidence": 0.3177933615753875,
+            "share_correct": 0.32693935119887163
+          },
+          {
+            "from": 0.425362707065578,
+            "to": 0.5690220302991835,
+            "n": 426,
+            "mean_confidence": 0.4678482501540665,
+            "share_correct": 0.4765258215962441
+          },
+          {
+            "from": 0.5690220302991835,
+            "to": 0.7126813535327889,
+            "n": 17,
+            "mean_confidence": 0.6331798568732975,
+            "share_correct": 0.6470588235294118
+          },
+          {
+            "from": 0.7126813535327889,
+            "to": 0.8563406767663946,
+            "n": 8,
+            "mean_confidence": 0.7865810139330602,
+            "share_correct": 1.0
+          },
+          {
+            "from": 0.8563406767663946,
+            "to": 1.0,
+            "n": 4,
+            "mean_confidence": 0.8714020526445481,
+            "share_correct": 0.75
+          }
+        ]
+      },
+      "at_0.7": {
+        "n": 4000,
+        "accuracy": 0.346,
+        "chance": 0.25,
+        "mean_confidence": 0.3366057838098175,
+        "brier": 0.7260132401540202,
+        "min_probability": 0.7,
+        "share_decided": 0.003,
+        "accuracy_when_decided": 0.9166666666666666,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5938146666666667,
+            "recall": 0.404,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.5933426666666667,
+            "recall": 0.355,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.619247,
+            "recall": 0.303,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.6265456666666667,
+            "recall": 0.322,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 404,
+            "lognormal": 262,
+            "uniform": 214,
+            "zipf": 120
+          },
+          "lognormal": {
+            "geometric": 320,
+            "lognormal": 355,
+            "uniform": 137,
+            "zipf": 188
+          },
+          "uniform": {
+            "geometric": 297,
+            "lognormal": 199,
+            "uniform": 303,
+            "zipf": 201
+          },
+          "zipf": {
+            "geometric": 279,
+            "lognormal": 294,
+            "uniform": 105,
+            "zipf": 322
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2817033838319725,
+            "to": 0.425362707065578,
+            "n": 3545,
+            "mean_confidence": 0.3177933615753875,
+            "share_correct": 0.32693935119887163
+          },
+          {
+            "from": 0.425362707065578,
+            "to": 0.5690220302991835,
+            "n": 426,
+            "mean_confidence": 0.4678482501540665,
+            "share_correct": 0.4765258215962441
+          },
+          {
+            "from": 0.5690220302991835,
+            "to": 0.7126813535327889,
+            "n": 17,
+            "mean_confidence": 0.6331798568732975,
+            "share_correct": 0.6470588235294118
+          },
+          {
+            "from": 0.7126813535327889,
+            "to": 0.8563406767663946,
+            "n": 8,
+            "mean_confidence": 0.7865810139330602,
+            "share_correct": 1.0
+          },
+          {
+            "from": 0.8563406767663946,
+            "to": 1.0,
+            "n": 4,
+            "mean_confidence": 0.8714020526445481,
+            "share_correct": 0.75
+          }
+        ]
+      },
+      "at_0.9": {
+        "n": 4000,
+        "accuracy": 0.346,
+        "chance": 0.25,
+        "mean_confidence": 0.3366057838098175,
+        "brier": 0.7260132401540202,
+        "min_probability": 0.9,
+        "share_decided": 0.0,
+        "accuracy_when_decided": null,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5938146666666667,
+            "recall": 0.404,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.5933426666666667,
+            "recall": 0.355,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.619247,
+            "recall": 0.303,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.6265456666666667,
+            "recall": 0.322,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 404,
+            "lognormal": 262,
+            "uniform": 214,
+            "zipf": 120
+          },
+          "lognormal": {
+            "geometric": 320,
+            "lognormal": 355,
+            "uniform": 137,
+            "zipf": 188
+          },
+          "uniform": {
+            "geometric": 297,
+            "lognormal": 199,
+            "uniform": 303,
+            "zipf": 201
+          },
+          "zipf": {
+            "geometric": 279,
+            "lognormal": 294,
+            "uniform": 105,
+            "zipf": 322
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2817033838319725,
+            "to": 0.425362707065578,
+            "n": 3545,
+            "mean_confidence": 0.3177933615753875,
+            "share_correct": 0.32693935119887163
+          },
+          {
+            "from": 0.425362707065578,
+            "to": 0.5690220302991835,
+            "n": 426,
+            "mean_confidence": 0.4678482501540665,
+            "share_correct": 0.4765258215962441
+          },
+          {
+            "from": 0.5690220302991835,
+            "to": 0.7126813535327889,
+            "n": 17,
+            "mean_confidence": 0.6331798568732975,
+            "share_correct": 0.6470588235294118
+          },
+          {
+            "from": 0.7126813535327889,
+            "to": 0.8563406767663946,
+            "n": 8,
+            "mean_confidence": 0.7865810139330602,
+            "share_correct": 1.0
+          },
+          {
+            "from": 0.8563406767663946,
+            "to": 1.0,
+            "n": 4,
+            "mean_confidence": 0.8714020526445481,
+            "share_correct": 0.75
+          }
+        ]
+      }
+    },
+    "observed_mean_unit_types": {
+      "features": [
+        "observed_mean_unit_types"
+      ],
+      "reference_n": {
+        "geometric": 1000,
+        "lognormal": 1000,
+        "uniform": 1000,
+        "zipf": 1000
+      },
+      "at_0.5": {
+        "n": 4000,
+        "accuracy": 0.29625,
+        "chance": 0.25,
+        "mean_confidence": 0.2935632138209683,
+        "brier": 0.7416770440184864,
+        "min_probability": 0.5,
+        "share_decided": 0.0135,
+        "accuracy_when_decided": 0.6851851851851852,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5177278333333334,
+            "recall": 0.0,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.5392946666666667,
+            "recall": 0.537,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.5684136666666667,
+            "recall": 0.187,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.5682028333333333,
+            "recall": 0.461,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 0,
+            "lognormal": 522,
+            "uniform": 86,
+            "zipf": 392
+          },
+          "lognormal": {
+            "geometric": 0,
+            "lognormal": 537,
+            "uniform": 93,
+            "zipf": 370
+          },
+          "uniform": {
+            "geometric": 0,
+            "lognormal": 446,
+            "uniform": 187,
+            "zipf": 367
+          },
+          "zipf": {
+            "geometric": 0,
+            "lognormal": 454,
+            "uniform": 85,
+            "zipf": 461
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2577021952835006,
+            "to": 0.40616175622680045,
+            "n": 3909,
+            "mean_confidence": 0.28740548730486515,
+            "share_correct": 0.2895881299565106
+          },
+          {
+            "from": 0.40616175622680045,
+            "to": 0.5546213171701003,
+            "n": 47,
+            "mean_confidence": 0.4663263647323095,
+            "share_correct": 0.48936170212765956
+          },
+          {
+            "from": 0.5546213171701003,
+            "to": 0.7030808781134001,
+            "n": 41,
+            "mean_confidence": 0.6408231559663649,
+            "share_correct": 0.6585365853658537
+          },
+          {
+            "from": 0.7030808781134001,
+            "to": 0.8515404390567001,
+            "n": 1,
+            "mean_confidence": 0.7886458186973049,
+            "share_correct": 1.0
+          },
+          {
+            "from": 0.8515404390567001,
+            "to": 1.0,
+            "n": 2,
+            "mean_confidence": 0.9025355267092503,
+            "share_correct": 1.0
+          }
+        ]
+      },
+      "at_0.7": {
+        "n": 4000,
+        "accuracy": 0.29625,
+        "chance": 0.25,
+        "mean_confidence": 0.2935632138209683,
+        "brier": 0.7416770440184864,
+        "min_probability": 0.7,
+        "share_decided": 0.00075,
+        "accuracy_when_decided": 1.0,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5177278333333334,
+            "recall": 0.0,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.5392946666666667,
+            "recall": 0.537,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.5684136666666667,
+            "recall": 0.187,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.5682028333333333,
+            "recall": 0.461,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 0,
+            "lognormal": 522,
+            "uniform": 86,
+            "zipf": 392
+          },
+          "lognormal": {
+            "geometric": 0,
+            "lognormal": 537,
+            "uniform": 93,
+            "zipf": 370
+          },
+          "uniform": {
+            "geometric": 0,
+            "lognormal": 446,
+            "uniform": 187,
+            "zipf": 367
+          },
+          "zipf": {
+            "geometric": 0,
+            "lognormal": 454,
+            "uniform": 85,
+            "zipf": 461
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2577021952835006,
+            "to": 0.40616175622680045,
+            "n": 3909,
+            "mean_confidence": 0.28740548730486515,
+            "share_correct": 0.2895881299565106
+          },
+          {
+            "from": 0.40616175622680045,
+            "to": 0.5546213171701003,
+            "n": 47,
+            "mean_confidence": 0.4663263647323095,
+            "share_correct": 0.48936170212765956
+          },
+          {
+            "from": 0.5546213171701003,
+            "to": 0.7030808781134001,
+            "n": 41,
+            "mean_confidence": 0.6408231559663649,
+            "share_correct": 0.6585365853658537
+          },
+          {
+            "from": 0.7030808781134001,
+            "to": 0.8515404390567001,
+            "n": 1,
+            "mean_confidence": 0.7886458186973049,
+            "share_correct": 1.0
+          },
+          {
+            "from": 0.8515404390567001,
+            "to": 1.0,
+            "n": 2,
+            "mean_confidence": 0.9025355267092503,
+            "share_correct": 1.0
+          }
+        ]
+      },
+      "at_0.9": {
+        "n": 4000,
+        "accuracy": 0.29625,
+        "chance": 0.25,
+        "mean_confidence": 0.2935632138209683,
+        "brier": 0.7416770440184864,
+        "min_probability": 0.9,
+        "share_decided": 0.00025,
+        "accuracy_when_decided": 1.0,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5177278333333334,
+            "recall": 0.0,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.5392946666666667,
+            "recall": 0.537,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.5684136666666667,
+            "recall": 0.187,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.5682028333333333,
+            "recall": 0.461,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 0,
+            "lognormal": 522,
+            "uniform": 86,
+            "zipf": 392
+          },
+          "lognormal": {
+            "geometric": 0,
+            "lognormal": 537,
+            "uniform": 93,
+            "zipf": 370
+          },
+          "uniform": {
+            "geometric": 0,
+            "lognormal": 446,
+            "uniform": 187,
+            "zipf": 367
+          },
+          "zipf": {
+            "geometric": 0,
+            "lognormal": 454,
+            "uniform": 85,
+            "zipf": 461
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2577021952835006,
+            "to": 0.40616175622680045,
+            "n": 3909,
+            "mean_confidence": 0.28740548730486515,
+            "share_correct": 0.2895881299565106
+          },
+          {
+            "from": 0.40616175622680045,
+            "to": 0.5546213171701003,
+            "n": 47,
+            "mean_confidence": 0.4663263647323095,
+            "share_correct": 0.48936170212765956
+          },
+          {
+            "from": 0.5546213171701003,
+            "to": 0.7030808781134001,
+            "n": 41,
+            "mean_confidence": 0.6408231559663649,
+            "share_correct": 0.6585365853658537
+          },
+          {
+            "from": 0.7030808781134001,
+            "to": 0.8515404390567001,
+            "n": 1,
+            "mean_confidence": 0.7886458186973049,
+            "share_correct": 1.0
+          },
+          {
+            "from": 0.8515404390567001,
+            "to": 1.0,
+            "n": 2,
+            "mean_confidence": 0.9025355267092503,
+            "share_correct": 1.0
+          }
+        ]
+      }
+    },
+    "cuts_per_sequence": {
+      "features": [
+        "cuts_per_sequence"
+      ],
+      "reference_n": {
+        "geometric": 1000,
+        "lognormal": 1000,
+        "uniform": 1000,
+        "zipf": 1000
+      },
+      "at_0.5": {
+        "n": 4000,
+        "accuracy": 0.39475,
+        "chance": 0.25,
+        "mean_confidence": 0.38181067798313517,
+        "brier": 0.6893705412440116,
+        "min_probability": 0.5,
+        "share_decided": 0.09475,
+        "accuracy_when_decided": 0.6569920844327177,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5975076666666667,
+            "recall": 0.072,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.6709443333333334,
+            "recall": 0.208,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.732784,
+            "recall": 0.637,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.69365,
+            "recall": 0.662,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 72,
+            "lognormal": 47,
+            "uniform": 506,
+            "zipf": 375
+          },
+          "lognormal": {
+            "geometric": 74,
+            "lognormal": 208,
+            "uniform": 226,
+            "zipf": 492
+          },
+          "uniform": {
+            "geometric": 81,
+            "lognormal": 10,
+            "uniform": 637,
+            "zipf": 272
+          },
+          "zipf": {
+            "geometric": 69,
+            "lognormal": 79,
+            "uniform": 190,
+            "zipf": 662
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2718627033675119,
+            "to": 0.4174901626940095,
+            "n": 3235,
+            "mean_confidence": 0.3459335355113841,
+            "share_correct": 0.35115919629057185
+          },
+          {
+            "from": 0.4174901626940095,
+            "to": 0.5631176220205072,
+            "n": 555,
+            "mean_confidence": 0.476058899251719,
+            "share_correct": 0.5261261261261261
+          },
+          {
+            "from": 0.5631176220205072,
+            "to": 0.7087450813470048,
+            "n": 150,
+            "mean_confidence": 0.6257881042533113,
+            "share_correct": 0.6866666666666666
+          },
+          {
+            "from": 0.7087450813470048,
+            "to": 0.8543725406735023,
+            "n": 34,
+            "mean_confidence": 0.7783345127384826,
+            "share_correct": 0.7352941176470589
+          },
+          {
+            "from": 0.8543725406735023,
+            "to": 1.0,
+            "n": 26,
+            "mean_confidence": 0.9078248614386104,
+            "share_correct": 0.8846153846153846
+          }
+        ]
+      },
+      "at_0.7": {
+        "n": 4000,
+        "accuracy": 0.39475,
+        "chance": 0.25,
+        "mean_confidence": 0.38181067798313517,
+        "brier": 0.6893705412440116,
+        "min_probability": 0.7,
+        "share_decided": 0.01675,
+        "accuracy_when_decided": 0.8059701492537313,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5975076666666667,
+            "recall": 0.072,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.6709443333333334,
+            "recall": 0.208,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.732784,
+            "recall": 0.637,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.69365,
+            "recall": 0.662,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 72,
+            "lognormal": 47,
+            "uniform": 506,
+            "zipf": 375
+          },
+          "lognormal": {
+            "geometric": 74,
+            "lognormal": 208,
+            "uniform": 226,
+            "zipf": 492
+          },
+          "uniform": {
+            "geometric": 81,
+            "lognormal": 10,
+            "uniform": 637,
+            "zipf": 272
+          },
+          "zipf": {
+            "geometric": 69,
+            "lognormal": 79,
+            "uniform": 190,
+            "zipf": 662
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2718627033675119,
+            "to": 0.4174901626940095,
+            "n": 3235,
+            "mean_confidence": 0.3459335355113841,
+            "share_correct": 0.35115919629057185
+          },
+          {
+            "from": 0.4174901626940095,
+            "to": 0.5631176220205072,
+            "n": 555,
+            "mean_confidence": 0.476058899251719,
+            "share_correct": 0.5261261261261261
+          },
+          {
+            "from": 0.5631176220205072,
+            "to": 0.7087450813470048,
+            "n": 150,
+            "mean_confidence": 0.6257881042533113,
+            "share_correct": 0.6866666666666666
+          },
+          {
+            "from": 0.7087450813470048,
+            "to": 0.8543725406735023,
+            "n": 34,
+            "mean_confidence": 0.7783345127384826,
+            "share_correct": 0.7352941176470589
+          },
+          {
+            "from": 0.8543725406735023,
+            "to": 1.0,
+            "n": 26,
+            "mean_confidence": 0.9078248614386104,
+            "share_correct": 0.8846153846153846
+          }
+        ]
+      },
+      "at_0.9": {
+        "n": 4000,
+        "accuracy": 0.39475,
+        "chance": 0.25,
+        "mean_confidence": 0.38181067798313517,
+        "brier": 0.6893705412440116,
+        "min_probability": 0.9,
+        "share_decided": 0.004,
+        "accuracy_when_decided": 0.9375,
+        "per_law": {
+          "geometric": {
+            "auc": 0.5975076666666667,
+            "recall": 0.072,
+            "n": 1000
+          },
+          "lognormal": {
+            "auc": 0.6709443333333334,
+            "recall": 0.208,
+            "n": 1000
+          },
+          "uniform": {
+            "auc": 0.732784,
+            "recall": 0.637,
+            "n": 1000
+          },
+          "zipf": {
+            "auc": 0.69365,
+            "recall": 0.662,
+            "n": 1000
+          }
+        },
+        "confusion": {
+          "geometric": {
+            "geometric": 72,
+            "lognormal": 47,
+            "uniform": 506,
+            "zipf": 375
+          },
+          "lognormal": {
+            "geometric": 74,
+            "lognormal": 208,
+            "uniform": 226,
+            "zipf": 492
+          },
+          "uniform": {
+            "geometric": 81,
+            "lognormal": 10,
+            "uniform": 637,
+            "zipf": 272
+          },
+          "zipf": {
+            "geometric": 69,
+            "lognormal": 79,
+            "uniform": 190,
+            "zipf": 662
+          }
+        },
+        "reliability": [
+          {
+            "from": 0.2718627033675119,
+            "to": 0.4174901626940095,
+            "n": 3235,
+            "mean_confidence": 0.3459335355113841,
+            "share_correct": 0.35115919629057185
+          },
+          {
+            "from": 0.4174901626940095,
+            "to": 0.5631176220205072,
+            "n": 555,
+            "mean_confidence": 0.476058899251719,
+            "share_correct": 0.5261261261261261
+          },
+          {
+            "from": 0.5631176220205072,
+            "to": 0.7087450813470048,
+            "n": 150,
+            "mean_confidence": 0.6257881042533113,
+            "share_correct": 0.6866666666666666
+          },
+          {
+            "from": 0.7087450813470048,
+            "to": 0.8543725406735023,
+            "n": 34,
+            "mean_confidence": 0.7783345127384826,
+            "share_correct": 0.7352941176470589
+          },
+          {
+            "from": 0.8543725406735023,
+            "to": 1.0,
+            "n": 26,
+            "mean_confidence": 0.9078248614386104,
+            "share_correct": 0.8846153846153846
+          }
+        ]
+      }
+    }
+  }
+}

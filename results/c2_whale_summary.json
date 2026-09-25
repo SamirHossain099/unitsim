@@ -1,0 +1,1965 @@
+{
+  "source": "c2_whale.csv",
+  "cells": {
+    "uniform|brevity=False|repeats=1": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.8338346355959191,
+        "loglog_slope": -0.780186537260484,
+        "brevity_r2": 0.23464438242581678,
+        "brevity_slope": -1.8973740206519643,
+        "csn_alpha": 4.7951130102005495,
+        "boundary_f1": 0.7064747963202211
+      },
+      "floor_sd": {
+        "loglog_r2": 0.006037665311422106,
+        "loglog_slope": 0.014413799816199386,
+        "brevity_r2": 0.011379429858000932,
+        "brevity_slope": 0.10628388328556528,
+        "csn_alpha": 0.6237508518290275,
+        "boundary_f1": 0.01079173527164766
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.03541069942747187,
+            "sd_shift": 0.009469630664120708,
+            "ratio": 5.864965611870139,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.24381839818476753,
+            "sd_shift": 0.008401967070535688,
+            "ratio": 16.915622618176286,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.1437389649327193,
+            "sd_shift": 0.01237896856083083,
+            "ratio": 12.631473345007327,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.3593376350971666,
+            "sd_shift": 0.09267934630906272,
+            "ratio": 3.3809230900200773,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -1.2469364289388252,
+            "sd_shift": 0.6328915469906676,
+            "ratio": 1.9990937491827512,
+            "share_beyond": 0.8666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.09298939264100392,
+            "sd_shift": 0.006197870415604613,
+            "ratio": 8.616722918074926,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.13777629723698576,
+            "sd_shift": 0.010014468072851241,
+            "ratio": 22.819465825033294,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.4586390825761457,
+            "sd_shift": 0.013543527111249586,
+            "ratio": 31.819443063215733,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.15256306195155447,
+            "sd_shift": 0.012396847944616093,
+            "ratio": 13.406916150925316,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.3039127587655556,
+            "sd_shift": 0.10835398369406975,
+            "ratio": 2.8594434957649963,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -1.4281247066834546,
+            "sd_shift": 0.6044088688889405,
+            "ratio": 2.2895755612930357,
+            "share_beyond": 0.9,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.23887265615335512,
+            "sd_shift": 0.007544214951187309,
+            "ratio": 22.134777229101225,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.029171517209024396,
+            "sd_shift": 0.007333679971025197,
+            "ratio": 4.8315889842117405,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.1154196343620459,
+            "sd_shift": 0.012101613077012246,
+            "ratio": 8.007578559008989,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.04380239385440439,
+            "sd_shift": 0.010635029168915833,
+            "ratio": 3.8492608505870543,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.14162403468417697,
+            "sd_shift": 0.08894678139989573,
+            "ratio": 1.3325071526005425,
+            "share_beyond": 0.6,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -1.8352141845545757,
+            "sd_shift": 0.7349058292571959,
+            "ratio": 2.9422231315166445,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.07086877372694136,
+            "sd_shift": 0.009211920497159042,
+            "ratio": 6.566948868096286,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.0166683175521057,
+            "sd_shift": 0.006904877376477171,
+            "ratio": 2.760722347522715,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.048686763204788354,
+            "sd_shift": 0.010246313252547925,
+            "ratio": 3.3777882186257546,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.026724501903225763,
+            "sd_shift": 0.009773932634980076,
+            "ratio": 2.348492168474999,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.0397237257696472,
+            "sd_shift": 0.12209831929001232,
+            "ratio": 0.3737511703718695,
+            "share_beyond": 0.4,
+            "sign_consistency": 0.6,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -0.9339497251540548,
+            "sd_shift": 0.6444656315949802,
+            "ratio": 1.4973121438077877,
+            "share_beyond": 0.7333333333333333,
+            "sign_consistency": 0.9,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.09345489741174749,
+            "sd_shift": 0.010733572251605605,
+            "ratio": 8.659858221066147,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    },
+    "uniform|brevity=False|repeats=5": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.9026708679262374,
+        "loglog_slope": -0.9433977550221899,
+        "brevity_r2": 0.09295872605086332,
+        "brevity_slope": -5.6447556933180785,
+        "csn_alpha": 2.0539244060104775,
+        "boundary_f1": 0.3575110626384926
+      },
+      "floor_sd": {
+        "loglog_r2": 0.006259225829967383,
+        "loglog_slope": 0.024133040274051522,
+        "brevity_r2": 0.006213831341705436,
+        "brevity_slope": 0.3776319039939035,
+        "csn_alpha": 0.16251208212726265,
+        "boundary_f1": 0.01841033832871025
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.08926312579244353,
+            "sd_shift": 0.007714702008884723,
+            "ratio": 14.261048924785108,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.3653491501464394,
+            "sd_shift": 0.01470130770145108,
+            "ratio": 15.13896077732371,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.04474920115484918,
+            "sd_shift": 0.005876655574233278,
+            "ratio": 7.201547434109694,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 3.163856977827288,
+            "sd_shift": 0.26698116351340745,
+            "ratio": 8.378150639195901,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.5437727186065379,
+            "sd_shift": 0.22020215626278808,
+            "ratio": 3.3460448693329234,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.019688515917250207,
+            "sd_shift": 0.009145703181689828,
+            "ratio": 1.0694271645484477,
+            "share_beyond": 0.5666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.1884132917869738,
+            "sd_shift": 0.013024400133654091,
+            "ratio": 30.101692590304832,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.5944132302849616,
+            "sd_shift": 0.019743715792998474,
+            "ratio": 24.63068156912208,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.032453253628127614,
+            "sd_shift": 0.0062882253610941855,
+            "ratio": 5.222744526442289,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 3.4191825677324914,
+            "sd_shift": 0.3166576756842949,
+            "ratio": 9.054273570560634,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 1.1475531314909118,
+            "sd_shift": 0.18512919304567615,
+            "ratio": 7.061340402938576,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.05424463770430625,
+            "sd_shift": 0.015590174805290045,
+            "ratio": 2.9464226423103654,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.012316431918348828,
+            "sd_shift": 0.005238469709968604,
+            "ratio": 1.967724484293453,
+            "share_beyond": 0.9,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.13342824742211956,
+            "sd_shift": 0.022641119273287963,
+            "ratio": 5.528861921536886,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.025192914857896914,
+            "sd_shift": 0.006225805927606429,
+            "ratio": 4.054328718066318,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 2.360436059930755,
+            "sd_shift": 0.39323324090755946,
+            "ratio": 6.250626694848489,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.12810788390618727,
+            "sd_shift": 0.17703186009161273,
+            "ratio": 0.7882975975033439,
+            "share_beyond": 0.5,
+            "sign_consistency": 0.8,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": 0.0026905148257616992,
+            "sd_shift": 0.01380039016369595,
+            "ratio": 0.14614151992882934,
+            "share_beyond": 0.23333333333333334,
+            "sign_consistency": 0.5,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": -0.0020414790305563,
+            "sd_shift": 0.00480950039100163,
+            "ratio": 0.3261551965072553,
+            "share_beyond": 0.3,
+            "sign_consistency": 0.7,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": -0.06304844565002919,
+            "sd_shift": 0.019618847672767153,
+            "ratio": 2.612536378925308,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.009015961779089945,
+            "sd_shift": 0.005319100172822916,
+            "ratio": 1.450950513989239,
+            "share_beyond": 0.7666666666666667,
+            "sign_consistency": 0.9333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 1.2724409076192225,
+            "sd_shift": 0.4075984483526909,
+            "ratio": 3.3695270292622435,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.08142313374990118,
+            "sd_shift": 0.33825586506289995,
+            "ratio": 0.5010281862374947,
+            "share_beyond": 0.4666666666666667,
+            "sign_consistency": 0.6666666666666666,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.006189162088618119,
+            "sd_shift": 0.01774130486708578,
+            "ratio": 0.3361786175850091,
+            "share_beyond": 0.2,
+            "sign_consistency": 0.6666666666666666,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    },
+    "uniform|brevity=True|repeats=1": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.8332537929502948,
+        "loglog_slope": -0.7789601598912735,
+        "brevity_r2": 0.22942436042709638,
+        "brevity_slope": -1.8828031028849066,
+        "csn_alpha": 4.726575776492488,
+        "boundary_f1": 0.7034310563214999
+      },
+      "floor_sd": {
+        "loglog_r2": 0.006371181769686958,
+        "loglog_slope": 0.012422084506581593,
+        "brevity_r2": 0.00861411648953977,
+        "brevity_slope": 0.08110973702001131,
+        "csn_alpha": 0.45817383203307605,
+        "boundary_f1": 0.010499578328788272
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.03470212874033954,
+            "sd_shift": 0.007552032194444556,
+            "ratio": 5.446733431064013,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.2409626440345432,
+            "sd_shift": 0.00946015300483224,
+            "ratio": 19.39792342475806,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.13815082614992374,
+            "sd_shift": 0.008747206855052418,
+            "ratio": 16.03772439317277,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.3482329715046341,
+            "sd_shift": 0.0763203531187931,
+            "ratio": 4.2933559434266,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -1.0769209120116525,
+            "sd_shift": 0.6650073503511034,
+            "ratio": 2.3504635942061145,
+            "share_beyond": 0.8,
+            "sign_consistency": 0.9333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.09289370008510152,
+            "sd_shift": 0.006450537332945247,
+            "ratio": 8.847374358873147,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.13431645529457947,
+            "sd_shift": 0.013840222512273202,
+            "ratio": 21.081874627033123,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.4566079661570949,
+            "sd_shift": 0.013416571888173339,
+            "ratio": 36.757757195676,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.14769673112412438,
+            "sd_shift": 0.00953869223017704,
+            "ratio": 17.145894335591397,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.29920921736099093,
+            "sd_shift": 0.12471958324645249,
+            "ratio": 3.6889432558161337,
+            "share_beyond": 0.9333333333333333,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -1.3451927661867993,
+            "sd_shift": 0.4609431483613369,
+            "ratio": 2.9359877673888812,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.23683041219307915,
+            "sd_shift": 0.008686325919641188,
+            "ratio": 22.556183189159665,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.028912646219432767,
+            "sd_shift": 0.006958238442672199,
+            "ratio": 4.538035056069882,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.1159948623863753,
+            "sd_shift": 0.011373113661677543,
+            "ratio": 9.337793695165875,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.043237941563880236,
+            "sd_shift": 0.009216442984421003,
+            "ratio": 5.019428471438088,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.1625489414480453,
+            "sd_shift": 0.08673234028331454,
+            "ratio": 2.0040619957618824,
+            "share_beyond": 0.8333333333333334,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -1.7690900776788288,
+            "sd_shift": 0.5280452940653676,
+            "ratio": 3.8611765971634893,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.06756495670822799,
+            "sd_shift": 0.008271900106089762,
+            "ratio": 6.435016206600887,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.01726058056116529,
+            "sd_shift": 0.005919810990262238,
+            "ratio": 2.709164670719067,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.047881667501316186,
+            "sd_shift": 0.013841695822856197,
+            "ratio": 3.8545597943684125,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.024684115651479915,
+            "sd_shift": 0.009843965901913417,
+            "ratio": 2.865542354976758,
+            "share_beyond": 0.9,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.04776902337104043,
+            "sd_shift": 0.10464566988416274,
+            "ratio": 0.588943142045386,
+            "share_beyond": 0.5666666666666667,
+            "sign_consistency": 0.6666666666666666,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -0.9037310602846721,
+            "sd_shift": 0.5825210381765034,
+            "ratio": 1.9724632816206553,
+            "share_beyond": 0.8333333333333334,
+            "sign_consistency": 0.9,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.09317303996874345,
+            "sd_shift": 0.010325021634536547,
+            "ratio": 8.87397922574442,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    },
+    "uniform|brevity=True|repeats=5": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.9018172628125327,
+        "loglog_slope": -0.9408956465580878,
+        "brevity_r2": 0.0934979500788841,
+        "brevity_slope": -5.792115304250498,
+        "csn_alpha": 2.093037928756568,
+        "boundary_f1": 0.363918495466943
+      },
+      "floor_sd": {
+        "loglog_r2": 0.005255557969159846,
+        "loglog_slope": 0.030837356042526923,
+        "brevity_r2": 0.006478650296228096,
+        "brevity_slope": 0.510737149850071,
+        "csn_alpha": 0.22543350605817564,
+        "boundary_f1": 0.020946171023770995
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.08901090853368426,
+            "sd_shift": 0.01297728861641321,
+            "ratio": 16.936528729396464,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.36634287494249274,
+            "sd_shift": 0.015328770350195111,
+            "ratio": 11.879840620488983,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.04482169195505108,
+            "sd_shift": 0.006524121562913617,
+            "ratio": 6.918368781402895,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 3.2369384491152093,
+            "sd_shift": 0.3831549466533496,
+            "ratio": 6.337777563401107,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.5152009702490943,
+            "sd_shift": 0.2176000962737132,
+            "ratio": 2.285378865181385,
+            "share_beyond": 0.8666666666666667,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.0254717842427171,
+            "sd_shift": 0.009448471476744729,
+            "ratio": 1.2160592126269838,
+            "share_beyond": 0.6666666666666666,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.18410312348444455,
+            "sd_shift": 0.012962332027702717,
+            "ratio": 35.030176541630894,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.5869013439163849,
+            "sd_shift": 0.024103877179190117,
+            "ratio": 19.032155127275047,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.032953567592149464,
+            "sd_shift": 0.007364607145548022,
+            "ratio": 5.086486549727064,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 3.5839050993834767,
+            "sd_shift": 0.48077576788467996,
+            "ratio": 7.017122409120908,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 1.080069290633869,
+            "sd_shift": 0.23622404267989108,
+            "ratio": 4.791077020978173,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.05854992731215533,
+            "sd_shift": 0.016534530693658078,
+            "ratio": 2.7952568154680537,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.01200493058384455,
+            "sd_shift": 0.006751614609046808,
+            "ratio": 2.284235214279952,
+            "share_beyond": 0.8666666666666667,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.13495230706419564,
+            "sd_shift": 0.02522150898833791,
+            "ratio": 4.376260626173228,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.024586131244940305,
+            "sd_shift": 0.006486813943239719,
+            "ratio": 3.794946496688435,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 2.380291855669161,
+            "sd_shift": 0.41793742174394716,
+            "ratio": 4.660502680033957,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.0883763831086976,
+            "sd_shift": 0.22781812096640572,
+            "ratio": 0.39202860592467154,
+            "share_beyond": 0.3,
+            "sign_consistency": 0.8,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.00492111296935749,
+            "sd_shift": 0.013216330522942778,
+            "ratio": 0.23494093329863058,
+            "share_beyond": 0.16666666666666666,
+            "sign_consistency": 0.7,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": 6.879219251091732e-05,
+            "sd_shift": 0.0046903448692310395,
+            "ratio": 0.013089417510870772,
+            "share_beyond": 0.16666666666666666,
+            "sign_consistency": 0.5,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": -0.06964666531684331,
+            "sd_shift": 0.02095238349901986,
+            "ratio": 2.25851610691901,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.007922453425837644,
+            "sd_shift": 0.005591711972726783,
+            "ratio": 1.2228555429902024,
+            "share_beyond": 0.6666666666666666,
+            "sign_consistency": 0.9,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 1.3794715767705585,
+            "sd_shift": 0.4361579974835522,
+            "ratio": 2.7009423089264373,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.08876542976441089,
+            "sd_shift": 0.3489177982214708,
+            "ratio": 0.39375437713994466,
+            "share_beyond": 0.5,
+            "sign_consistency": 0.4666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.011405256689231646,
+            "sd_shift": 0.0147440085412161,
+            "ratio": 0.5445031779931647,
+            "share_beyond": 0.23333333333333334,
+            "sign_consistency": 0.7666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    },
+    "zipf|brevity=False|repeats=1": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.9455673031277756,
+        "loglog_slope": -0.9493228043153067,
+        "brevity_r2": 0.11972959941671789,
+        "brevity_slope": -0.9115456778847204,
+        "csn_alpha": 1.9957442086560166,
+        "boundary_f1": 0.7043348550938703
+      },
+      "floor_sd": {
+        "loglog_r2": 0.003981947001564571,
+        "loglog_slope": 0.015861430974464817,
+        "brevity_r2": 0.009345857049534875,
+        "brevity_slope": 0.06101030553353738,
+        "csn_alpha": 0.038736800077404925,
+        "boundary_f1": 0.014869268906031229
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.08232076176349032,
+            "sd_shift": 0.0070746961623729485,
+            "ratio": 20.673495084476304,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.2850490883555389,
+            "sd_shift": 0.013445614906232962,
+            "ratio": 17.971208828159135,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.040023250753097275,
+            "sd_shift": 0.007956574797720849,
+            "ratio": 4.28245911968974,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.005584173922785814,
+            "sd_shift": 0.048989241003775635,
+            "ratio": 0.0915283717062553,
+            "share_beyond": 0.3,
+            "sign_consistency": 0.6,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.3344948624999967,
+            "sd_shift": 0.05746299349587974,
+            "ratio": 8.635066960399413,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.08846128720867034,
+            "sd_shift": 0.00804273452767056,
+            "ratio": 5.949269447456757,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.1747301709124152,
+            "sd_shift": 0.007699168240030758,
+            "ratio": 43.88058676917621,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.4990194871756138,
+            "sd_shift": 0.015712741535536437,
+            "ratio": 31.461189597519986,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.029118841906271828,
+            "sd_shift": 0.0084436151409218,
+            "ratio": 3.115695195415065,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.3932684467409044,
+            "sd_shift": 0.06010672388984533,
+            "ratio": 6.445934720401041,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.7595400051807538,
+            "sd_shift": 0.0783885638182451,
+            "ratio": 19.607711624683,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.21354201019921737,
+            "sd_shift": 0.010995805779059611,
+            "ratio": 14.36129856476004,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": -0.01969739239479802,
+            "sd_shift": 0.004376768043656467,
+            "ratio": 4.946673671713511,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.10775619784770143,
+            "sd_shift": 0.02091698585156086,
+            "ratio": 6.793598763010552,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": 0.00686456522139724,
+            "sd_shift": 0.010208908316376431,
+            "ratio": 0.7345035543571551,
+            "share_beyond": 0.5,
+            "sign_consistency": 0.7,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.04395309424637402,
+            "sd_shift": 0.0615279201770187,
+            "ratio": 0.7204208184503026,
+            "share_beyond": 0.3333333333333333,
+            "sign_consistency": 0.7666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.11464624217160847,
+            "sd_shift": 0.04743562341855907,
+            "ratio": 2.9596208758214217,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.04805229124664152,
+            "sd_shift": 0.014096588796653747,
+            "ratio": 3.2316512365413397,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": -0.002633345342926226,
+            "sd_shift": 0.0038446126773223526,
+            "ratio": 0.6613210426687102,
+            "share_beyond": 0.4666666666666667,
+            "sign_consistency": 0.7666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.022156329276494677,
+            "sd_shift": 0.013752070753442164,
+            "ratio": 1.3968682467656268,
+            "share_beyond": 0.7333333333333333,
+            "sign_consistency": 0.8666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": 0.003865173670625611,
+            "sd_shift": 0.006845423085615158,
+            "ratio": 0.4135708100540627,
+            "share_beyond": 0.16666666666666666,
+            "sign_consistency": 0.8,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.018957518833142766,
+            "sd_shift": 0.07219632431980909,
+            "ratio": 0.3107265021435078,
+            "share_beyond": 0.36666666666666664,
+            "sign_consistency": 0.6333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.007200509054944145,
+            "sd_shift": 0.039880311821358094,
+            "ratio": 0.18588290825664205,
+            "share_beyond": 0.4,
+            "sign_consistency": 0.5666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.04686583294516504,
+            "sd_shift": 0.011233096215943515,
+            "ratio": 3.151858591121145,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    },
+    "zipf|brevity=False|repeats=5": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.9318476679718533,
+        "loglog_slope": -1.0715924056643389,
+        "brevity_r2": 0.09065550077533145,
+        "brevity_slope": -5.101301487309011,
+        "csn_alpha": 1.890964666465761,
+        "boundary_f1": 0.3706721626954641
+      },
+      "floor_sd": {
+        "loglog_r2": 0.006068130005204931,
+        "loglog_slope": 0.027359610439387484,
+        "brevity_r2": 0.007966187791837824,
+        "brevity_slope": 0.5043237507154679,
+        "csn_alpha": 0.10610286192854519,
+        "boundary_f1": 0.01993729779495015
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.09073580138189705,
+            "sd_shift": 0.009831858730133492,
+            "ratio": 14.952844006978843,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.41646318840756097,
+            "sd_shift": 0.017364837223360925,
+            "ratio": 15.221824496741064,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.041288381910950994,
+            "sd_shift": 0.00832844842093739,
+            "ratio": 5.182953627236252,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 2.886658684646862,
+            "sd_shift": 0.3957977882384234,
+            "ratio": 5.723820622272206,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.4936629295708164,
+            "sd_shift": 0.11416532575754113,
+            "ratio": 4.6526825063707795,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.021518529297673988,
+            "sd_shift": 0.010336714252375418,
+            "ratio": 1.0793102214245074,
+            "share_beyond": 0.5666666666666667,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.1794921867690731,
+            "sd_shift": 0.013801086151079804,
+            "ratio": 29.57948933445953,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.657239656148486,
+            "sd_shift": 0.018966169365116626,
+            "ratio": 24.02225929365974,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.027542569365055402,
+            "sd_shift": 0.008483597946930032,
+            "ratio": 3.457434105843649,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 3.2645948921025263,
+            "sd_shift": 0.465119691350953,
+            "ratio": 6.473212668392378,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 1.028607376242394,
+            "sd_shift": 0.13498992727559364,
+            "ratio": 9.69443573477884,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.054359143659490454,
+            "sd_shift": 0.014320650520327882,
+            "ratio": 2.726505076994882,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.0017536389254382315,
+            "sd_shift": 0.006773696654195107,
+            "ratio": 0.2889916537605572,
+            "share_beyond": 0.26666666666666666,
+            "sign_consistency": 0.6333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.12594325114370064,
+            "sd_shift": 0.031123079872631708,
+            "ratio": 4.603254546431335,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.021251469606167007,
+            "sd_shift": 0.00826912428640772,
+            "ratio": 2.667708841604427,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 1.8500659754176487,
+            "sd_shift": 0.49154072710505675,
+            "ratio": 3.668409375511305,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.17861510515932685,
+            "sd_shift": 0.20959290804904138,
+            "ratio": 1.6834145838555694,
+            "share_beyond": 0.6,
+            "sign_consistency": 0.8666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": 0.006964778907881921,
+            "sd_shift": 0.016595682929369554,
+            "ratio": 0.3493341464582029,
+            "share_beyond": 0.26666666666666666,
+            "sign_consistency": 0.6333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": -6.628225679540615e-05,
+            "sd_shift": 0.005347639075413545,
+            "ratio": 0.010923011988627902,
+            "share_beyond": 0.23333333333333334,
+            "sign_consistency": 0.5333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": -0.03656704039945132,
+            "sd_shift": 0.024885631408403604,
+            "ratio": 1.3365336644855375,
+            "share_beyond": 0.5666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.004691164061956952,
+            "sd_shift": 0.0060206771309255,
+            "ratio": 0.588884443166596,
+            "share_beyond": 0.23333333333333334,
+            "sign_consistency": 0.7333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.6140938254869478,
+            "sd_shift": 0.480896518943781,
+            "ratio": 1.2176579520908002,
+            "share_beyond": 0.43333333333333335,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -0.023825930433190277,
+            "sd_shift": 0.12267783275802926,
+            "ratio": 0.22455502142096614,
+            "share_beyond": 0.3,
+            "sign_consistency": 0.6,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.006927484922788631,
+            "sd_shift": 0.019342917875008716,
+            "ratio": 0.3474635827801735,
+            "share_beyond": 0.3333333333333333,
+            "sign_consistency": 0.5666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    },
+    "zipf|brevity=True|repeats=1": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.9463257756762113,
+        "loglog_slope": -0.9650888355345788,
+        "brevity_r2": 0.20889246577184942,
+        "brevity_slope": -0.9172401602976398,
+        "csn_alpha": 2.0154279533453505,
+        "boundary_f1": 0.7900910290232065
+      },
+      "floor_sd": {
+        "loglog_r2": 0.0037145996921712256,
+        "loglog_slope": 0.022445983045013773,
+        "brevity_r2": 0.008222620283205358,
+        "brevity_slope": 0.04484056500280562,
+        "csn_alpha": 0.0485298825387978,
+        "boundary_f1": 0.013510920306389099
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.07507898039588333,
+            "sd_shift": 0.006832218932180456,
+            "ratio": 20.21186308557486,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.25484142355159045,
+            "sd_shift": 0.01187213194044196,
+            "ratio": 11.353542548817071,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.08667622234127213,
+            "sd_shift": 0.009123102872171707,
+            "ratio": 10.541192388308103,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.05170961236790383,
+            "sd_shift": 0.030691567427342723,
+            "ratio": 1.1531882429373586,
+            "share_beyond": 0.5,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.24092808778329539,
+            "sd_shift": 0.05610694002461144,
+            "ratio": 4.964530618648881,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.07855446125446329,
+            "sd_shift": 0.005141866656310627,
+            "ratio": 5.814145851879249,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.18400882128469925,
+            "sd_shift": 0.009313565918365999,
+            "ratio": 49.53664904256319,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.4832984824195715,
+            "sd_shift": 0.01789230200923921,
+            "ratio": 21.53162467646669,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.0962764494212068,
+            "sd_shift": 0.008567506938598875,
+            "ratio": 11.708731049863843,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.2736033593917534,
+            "sd_shift": 0.039425941481197505,
+            "ratio": 6.101692950894672,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.6003371661493122,
+            "sd_shift": 0.06698580692697953,
+            "ratio": 12.370464026352535,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.2059889525508739,
+            "sd_shift": 0.007782940119408615,
+            "ratio": 15.24610817617398,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": -0.0214035913296215,
+            "sd_shift": 0.004805679016858032,
+            "ratio": 5.7620182801207465,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.12809909987058796,
+            "sd_shift": 0.011393737350023162,
+            "ratio": 5.706994414710846,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.01965039488856197,
+            "sd_shift": 0.006149376054071548,
+            "ratio": 2.3897971950252592,
+            "share_beyond": 0.9333333333333333,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.01265976376742003,
+            "sd_shift": 0.030308103969813257,
+            "ratio": 0.2823283731288382,
+            "share_beyond": 0.2,
+            "sign_consistency": 0.7333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.10999633743933203,
+            "sd_shift": 0.053570729248101724,
+            "ratio": 2.266569208186196,
+            "share_beyond": 0.8666666666666667,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.02620417833362947,
+            "sd_shift": 0.006551575276528546,
+            "ratio": 1.9394813779811824,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": -0.0048222418272295675,
+            "sd_shift": 0.002706083266120715,
+            "ratio": 1.2981861376322121,
+            "share_beyond": 0.7666666666666667,
+            "sign_consistency": 0.9333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.04432578558390695,
+            "sd_shift": 0.012918003062474892,
+            "ratio": 1.9747758650184684,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": 0.000954085922943762,
+            "sd_shift": 0.008302592291290664,
+            "ratio": 0.11603185968498089,
+            "share_beyond": 0.36666666666666664,
+            "sign_consistency": 0.43333333333333335,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": -0.026292636093537197,
+            "sd_shift": 0.03502886689823957,
+            "ratio": 0.5863582693904971,
+            "share_beyond": 0.3333333333333333,
+            "sign_consistency": 0.7333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.02882716027786166,
+            "sd_shift": 0.053837930935453304,
+            "ratio": 0.5940084494293889,
+            "share_beyond": 0.5333333333333333,
+            "sign_consistency": 0.7333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.03785808801724566,
+            "sd_shift": 0.008268172500460802,
+            "ratio": 2.8020362165368686,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    },
+    "zipf|brevity=True|repeats=5": {
+      "n_datasets": 30,
+      "clean_mean": {
+        "loglog_r2": 0.9334463423853777,
+        "loglog_slope": -0.9688388836261127,
+        "brevity_r2": 0.1182125567787937,
+        "brevity_slope": -4.285811602740849,
+        "csn_alpha": 1.9470858281166703,
+        "boundary_f1": 0.39243458715819707
+      },
+      "floor_sd": {
+        "loglog_r2": 0.005470137312847325,
+        "loglog_slope": 0.023021295434813325,
+        "brevity_r2": 0.006770333302287473,
+        "brevity_slope": 0.2822647408916804,
+        "csn_alpha": 0.056807520343418835,
+        "boundary_f1": 0.021486152944840003
+      },
+      "conditions": {
+        "confuse_6.7": {
+          "loglog_r2": {
+            "mean_shift": -0.08989014024064873,
+            "sd_shift": 0.008438175544933212,
+            "ratio": 16.43288551999053,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.3299352188143717,
+            "sd_shift": 0.014138402023694253,
+            "ratio": 14.331739920918446,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.0585228888137017,
+            "sd_shift": 0.007973578690485423,
+            "ratio": 8.64401886889804,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 2.134424125691463,
+            "sd_shift": 0.1986078864917908,
+            "ratio": 7.561780897425485,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.48856326828058455,
+            "sd_shift": 0.08588656217169702,
+            "ratio": 8.600327303974371,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.007399064282399045,
+            "sd_shift": 0.007192697050523875,
+            "ratio": 0.3443643122802941,
+            "share_beyond": 0.0,
+            "sign_consistency": 0.7666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "confuse_19.19": {
+          "loglog_r2": {
+            "mean_shift": -0.18117069707159975,
+            "sd_shift": 0.011679236969605648,
+            "ratio": 33.1199541638739,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.5559635829057978,
+            "sd_shift": 0.02002637970619216,
+            "ratio": 24.149969513229784,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.04857301568408946,
+            "sd_shift": 0.007323293894546343,
+            "ratio": 7.174390612006981,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 2.420437473081541,
+            "sd_shift": 0.24180924468047044,
+            "ratio": 8.575061360605389,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.956900543655079,
+            "sd_shift": 0.07587620746821018,
+            "ratio": 16.84461032395575,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": -0.025436389509072246,
+            "sd_shift": 0.014796183485750207,
+            "ratio": 1.1838503418631259,
+            "share_beyond": 0.5666666666666667,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "oversplit_25": {
+          "loglog_r2": {
+            "mean_shift": 0.00020203997211058292,
+            "sd_shift": 0.005332768954865014,
+            "ratio": 0.036935082349041935,
+            "share_beyond": 0.26666666666666666,
+            "sign_consistency": 0.5,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": 0.08922315216296808,
+            "sd_shift": 0.027724645835277523,
+            "ratio": 3.8756790388104227,
+            "share_beyond": 0.9666666666666667,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.02675785979730238,
+            "sd_shift": 0.008077861099196238,
+            "ratio": 3.9522219368818634,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 1.1419290441649759,
+            "sd_shift": 0.30270178047546026,
+            "ratio": 4.045595778479442,
+            "share_beyond": 1.0,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": 0.0897573273289298,
+            "sd_shift": 0.06914653024047798,
+            "ratio": 1.5800254400529947,
+            "share_beyond": 0.8,
+            "sign_consistency": 0.9,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": 0.03488793262345903,
+            "sd_shift": 0.020795089113385713,
+            "ratio": 1.6237403090736877,
+            "share_beyond": 0.7333333333333333,
+            "sign_consistency": 0.9666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        },
+        "undersplit_25": {
+          "loglog_r2": {
+            "mean_shift": -0.0008254161712666093,
+            "sd_shift": 0.003948961163874965,
+            "ratio": 0.1508949637019189,
+            "share_beyond": 0.13333333333333333,
+            "sign_consistency": 0.6,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "loglog_slope": {
+            "mean_shift": -0.03371247767436262,
+            "sd_shift": 0.020818338337315206,
+            "ratio": 1.4644040240837988,
+            "share_beyond": 0.6,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_r2": {
+            "mean_shift": -0.0025011048277714817,
+            "sd_shift": 0.006263481842385931,
+            "ratio": 0.3694212258245012,
+            "share_beyond": 0.26666666666666666,
+            "sign_consistency": 0.6666666666666666,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "brevity_slope": {
+            "mean_shift": 0.3813108833469593,
+            "sd_shift": 0.19774991773573128,
+            "ratio": 1.3508980333228655,
+            "share_beyond": 0.7,
+            "sign_consistency": 1.0,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "csn_alpha": {
+            "mean_shift": -0.029401667099113998,
+            "sd_shift": 0.07355424902352399,
+            "ratio": 0.5175664581268805,
+            "share_beyond": 0.36666666666666664,
+            "sign_consistency": 0.7333333333333333,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          },
+          "boundary_f1": {
+            "mean_shift": 0.004417975362371444,
+            "sd_shift": 0.017401273282025547,
+            "ratio": 0.2056196553060673,
+            "share_beyond": 0.2,
+            "sign_consistency": 0.5666666666666667,
+            "n": 30,
+            "rows_with_undefined_years": 0
+          }
+        }
+      }
+    }
+  }
+}

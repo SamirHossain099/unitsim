@@ -1,0 +1,19 @@
+regime,prior,confidence threshold,held-out datasets,accuracy,Brier,share decided,accuracy when decided
+"whale, independent words",matched,0.5,4000,0.617,0.495,0.673,0.701
+"whale, independent words",matched,0.7,4000,0.617,0.495,0.295,0.834
+"whale, independent words",matched,0.9,4000,0.617,0.495,0.11,0.923
+"whale, independent words",wide,0.5,2000,0.424,0.874,0.799,0.443
+"whale, independent words",wide,0.7,2000,0.424,0.874,0.566,0.472
+"whale, independent words",wide,0.9,2000,0.424,0.874,0.386,0.468
+finch,matched,0.5,4000,0.457,0.653,0.23,0.684
+finch,matched,0.7,4000,0.457,0.653,0.049,0.796
+finch,matched,0.9,4000,0.457,0.653,0.014,0.821
+finch,wide,0.5,2000,0.388,0.88,0.627,0.419
+finch,wide,0.7,2000,0.388,0.88,0.426,0.434
+finch,wide,0.9,2000,0.388,0.88,0.311,0.468
+whale song,matched,0.5,4000,0.619,0.495,0.57,0.748
+whale song,matched,0.7,4000,0.619,0.495,0.251,0.917
+whale song,matched,0.9,4000,0.619,0.495,0.127,0.972
+whale song,wide,0.5,2000,0.441,0.841,0.83,0.474
+whale song,wide,0.7,2000,0.441,0.841,0.606,0.506
+whale song,wide,0.9,2000,0.441,0.841,0.412,0.554

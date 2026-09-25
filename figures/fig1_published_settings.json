@@ -1,0 +1,202 @@
+{
+  "observed_mean_r2|whale words, m = 1|lognormal": {
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "observed_mean_r2|whale words, m = 1|geometric": {
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "observed_mean_r2|whale words, m = 5|lognormal": {
+    "auc": 0.9433333333333334,
+    "lo": 0.8733055555555556,
+    "hi": 0.9911111111111112
+  },
+  "observed_mean_r2|whale words, m = 5|geometric": {
+    "auc": 0.9866666666666667,
+    "lo": 0.9577777777777777,
+    "hi": 1.0
+  },
+  "observed_mean_r2|finch|lognormal": {
+    "auc": 0.6355555555555555,
+    "lo": 0.49333333333333335,
+    "hi": 0.77
+  },
+  "observed_mean_r2|finch|geometric": {
+    "auc": 0.6311111111111111,
+    "lo": 0.4799722222222222,
+    "hi": 0.7688888888888888
+  },
+  "observed_mean_r2|whale song, s = 0|lognormal": {
+    "auc": 0.5033333333333333,
+    "lo": 0.3588611111111111,
+    "hi": 0.6489166666666665
+  },
+  "observed_mean_r2|whale song, s = 0|geometric": {
+    "auc": 0.6111111111111112,
+    "lo": 0.46552777777777776,
+    "hi": 0.7522499999999999
+  },
+  "observed_mean_r2|whale song, s = 0.8|lognormal": {
+    "auc": 0.2822222222222222,
+    "lo": 0.15333333333333332,
+    "hi": 0.4244722222222221
+  },
+  "observed_mean_r2|whale song, s = 0.8|geometric": {
+    "auc": 0.30666666666666664,
+    "lo": 0.16775,
+    "hi": 0.4489166666666665
+  },
+  "shuffle_z|whale words, m = 1|lognormal": {
+    "auc": 0.5811111111111111,
+    "lo": 0.42444444444444446,
+    "hi": 0.723361111111111
+  },
+  "shuffle_z|whale words, m = 1|geometric": {
+    "auc": 0.6188888888888889,
+    "lo": 0.4766666666666667,
+    "hi": 0.7555555555555555
+  },
+  "shuffle_z|whale words, m = 5|lognormal": {
+    "auc": 0.3188888888888889,
+    "lo": 0.1866388888888889,
+    "hi": 0.4533333333333333
+  },
+  "shuffle_z|whale words, m = 5|geometric": {
+    "auc": 0.24666666666666667,
+    "lo": 0.13444444444444445,
+    "hi": 0.3744722222222221
+  },
+  "shuffle_z|finch|lognormal": {
+    "auc": 0.6411111111111111,
+    "lo": 0.49333333333333335,
+    "hi": 0.7833333333333333
+  },
+  "shuffle_z|finch|geometric": {
+    "auc": 0.6988888888888889,
+    "lo": 0.5577777777777778,
+    "hi": 0.8333888888888886
+  },
+  "shuffle_z|whale song, s = 0|lognormal": {
+    "auc": 0.3511111111111111,
+    "lo": 0.2111111111111111,
+    "hi": 0.49669444444444427
+  },
+  "shuffle_z|whale song, s = 0|geometric": {
+    "auc": 0.2633333333333333,
+    "lo": 0.14222222222222222,
+    "hi": 0.3988888888888889
+  },
+  "shuffle_z|whale song, s = 0.8|lognormal": {
+    "auc": 0.3466666666666667,
+    "lo": 0.21886111111111112,
+    "hi": 0.4811111111111111
+  },
+  "shuffle_z|whale song, s = 0.8|geometric": {
+    "auc": 0.25,
+    "lo": 0.13330555555555557,
+    "hi": 0.3811111111111111
+  },
+  "rotate_z|whale words, m = 1|lognormal": {
+    "auc": 0.5911111111111111,
+    "lo": 0.4388888888888889,
+    "hi": 0.7366944444444443
+  },
+  "rotate_z|whale words, m = 1|geometric": {
+    "auc": 0.8755555555555555,
+    "lo": 0.7822222222222223,
+    "hi": 0.9533333333333334
+  },
+  "rotate_z|whale words, m = 5|lognormal": {
+    "auc": 0.5477777777777778,
+    "lo": 0.40555555555555556,
+    "hi": 0.6922499999999998
+  },
+  "rotate_z|whale words, m = 5|geometric": {
+    "auc": 0.46111111111111114,
+    "lo": 0.3111111111111111,
+    "hi": 0.6088888888888889
+  },
+  "rotate_z|finch|lognormal": {
+    "auc": 0.5666666666666667,
+    "lo": 0.40994444444444444,
+    "hi": 0.7089166666666665
+  },
+  "rotate_z|finch|geometric": {
+    "auc": 0.6644444444444444,
+    "lo": 0.5233333333333333,
+    "hi": 0.8
+  },
+  "rotate_z|whale song, s = 0|lognormal": {
+    "auc": 0.43222222222222223,
+    "lo": 0.2832777777777778,
+    "hi": 0.5722222222222222
+  },
+  "rotate_z|whale song, s = 0|geometric": {
+    "auc": 0.5055555555555555,
+    "lo": 0.35777777777777775,
+    "hi": 0.6578055555555554
+  },
+  "rotate_z|whale song, s = 0.8|lognormal": {
+    "auc": 0.27,
+    "lo": 0.15555555555555556,
+    "hi": 0.4100277777777776
+  },
+  "rotate_z|whale song, s = 0.8|geometric": {
+    "auc": 0.1922222222222222,
+    "lo": 0.09108333333333334,
+    "hi": 0.30444444444444446
+  },
+  "bigram_z|whale words, m = 1|lognormal": {
+    "auc": 0.5066666666666667,
+    "lo": 0.35,
+    "hi": 0.6555555555555556
+  },
+  "bigram_z|whale words, m = 1|geometric": {
+    "auc": 0.7733333333333333,
+    "lo": 0.6455555555555555,
+    "hi": 0.8866944444444443
+  },
+  "bigram_z|whale words, m = 5|lognormal": {
+    "auc": 0.08777777777777777,
+    "lo": 0.03,
+    "hi": 0.15777777777777777
+  },
+  "bigram_z|whale words, m = 5|geometric": {
+    "auc": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+  },
+  "bigram_z|finch|lognormal": {
+    "auc": 0.5966666666666667,
+    "lo": 0.45222222222222225,
+    "hi": 0.7388888888888889
+  },
+  "bigram_z|finch|geometric": {
+    "auc": 0.6711111111111111,
+    "lo": 0.5265833333333333,
+    "hi": 0.8111388888888887
+  },
+  "bigram_z|whale song, s = 0|lognormal": {
+    "auc": 0.4388888888888889,
+    "lo": 0.2866666666666667,
+    "hi": 0.58
+  },
+  "bigram_z|whale song, s = 0|geometric": {
+    "auc": 0.4577777777777778,
+    "lo": 0.31,
+    "hi": 0.6077777777777778
+  },
+  "bigram_z|whale song, s = 0.8|lognormal": {
+    "auc": 0.37555555555555553,
+    "lo": 0.22777777777777777,
+    "hi": 0.5233333333333333
+  },
+  "bigram_z|whale song, s = 0.8|geometric": {
+    "auc": 0.2611111111111111,
+    "lo": 0.1388888888888889,
+    "hi": 0.39555555555555555
+  }
+}

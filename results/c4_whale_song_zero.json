@@ -1,0 +1,69 @@
+{
+  "script": "exp_c4_song.py",
+  "args": {
+    "undefined": "zero",
+    "datasets": 30,
+    "replicates": 200,
+    "threshold": 0.5,
+    "laws": [
+      "zipf",
+      "uniform",
+      "lognormal",
+      "geometric"
+    ],
+    "stickiness": [
+      0.0,
+      0.8
+    ],
+    "n_themes": 8,
+    "variants_per_theme": 3,
+    "phrases_per_cycle": 40.0,
+    "n_elements": 30,
+    "length_range": [
+      2,
+      6
+    ],
+    "base_seed": 20260916,
+    "out": null
+  },
+  "whale_years": [
+    [
+      4,
+      1053
+    ],
+    [
+      6,
+      2028
+    ],
+    [
+      6,
+      3351
+    ],
+    [
+      6,
+      2664
+    ],
+    [
+      7,
+      5765
+    ],
+    [
+      12,
+      13251
+    ],
+    [
+      7,
+      8469
+    ],
+    [
+      7,
+      9179
+    ]
+  ],
+  "unitsim_version": "0.1.0.dev0",
+  "numpy": "2.5.3",
+  "python": "3.12.10",
+  "runtime_s": 1858.4,
+  "finished": "2026-09-12 18:11:55",
+  "rows": 240
+}

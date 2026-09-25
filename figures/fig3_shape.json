@@ -1,0 +1,338 @@
+{
+  "Whale words|c4_whale_summary.json|uniform|repeats=1": {
+    "top_word_difference": 0.18277563597396002,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_summary.json|uniform|repeats=5": {
+    "top_word_difference": 0.18277563597396002,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_summary.json|lognormal|repeats=1": {
+    "top_word_difference": 0.11653805493723939,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_summary.json|lognormal|repeats=5": {
+    "top_word_difference": 0.11653805493723939,
+    "auc": 0.9433333333333334,
+    "lo": 0.8733055555555556,
+    "hi": 0.9911111111111112
+  },
+  "Whale words|c4_whale_summary.json|geometric|repeats=1": {
+    "top_word_difference": 0.16144933373208797,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_summary.json|geometric|repeats=5": {
+    "top_word_difference": 0.16144933373208797,
+    "auc": 0.9866666666666667,
+    "lo": 0.9577777777777777,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_sigma0.5_summary.json|lognormal|repeats=1": {
+    "top_word_difference": 0.16206644612870807,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_sigma0.5_summary.json|lognormal|repeats=5": {
+    "top_word_difference": 0.16206644612870807,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_sigma1.5_summary.json|lognormal|repeats=1": {
+    "top_word_difference": 0.041405822139329584,
+    "auc": 0.5966666666666667,
+    "lo": 0.44555555555555554,
+    "hi": 0.7389166666666666
+  },
+  "Whale words|c4_whale_sigma1.5_summary.json|lognormal|repeats=5": {
+    "top_word_difference": 0.041405822139329584,
+    "auc": 0.5466666666666666,
+    "lo": 0.4066388888888889,
+    "hi": 0.6977777777777778
+  },
+  "Whale words|c4_whale_sigma2_summary.json|lognormal|repeats=1": {
+    "top_word_difference": -0.05135644690341806,
+    "auc": 0.22333333333333333,
+    "lo": 0.1066388888888889,
+    "hi": 0.3488888888888889
+  },
+  "Whale words|c4_whale_sigma2_summary.json|lognormal|repeats=5": {
+    "top_word_difference": -0.05135644690341806,
+    "auc": 0.1988888888888889,
+    "lo": 0.09886111111111111,
+    "hi": 0.3166944444444443
+  },
+  "Whale words|c4_whale_tail0.2_summary.json|geometric|repeats=1": {
+    "top_word_difference": 0.17269967278895432,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_tail0.2_summary.json|geometric|repeats=5": {
+    "top_word_difference": 0.17269967278895432,
+    "auc": 0.9988888888888889,
+    "lo": 0.9933333333333333,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_tail0.01_summary.json|geometric|repeats=1": {
+    "top_word_difference": 0.14688605434256302,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_tail0.01_summary.json|geometric|repeats=5": {
+    "top_word_difference": 0.14688605434256302,
+    "auc": 0.9244444444444444,
+    "lo": 0.8511111111111112,
+    "hi": 0.9811111111111112
+  },
+  "Whale words|c4_whale_zipfexp0.8_summary.json|uniform|repeats=1": {
+    "top_word_difference": 0.1129341465565828,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp0.8_summary.json|uniform|repeats=5": {
+    "top_word_difference": 0.1129341465565828,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp0.8_summary.json|lognormal|repeats=1": {
+    "top_word_difference": 0.04669656551986216,
+    "auc": 0.9422222222222222,
+    "lo": 0.8755555555555555,
+    "hi": 0.9888888888888889
+  },
+  "Whale words|c4_whale_zipfexp0.8_summary.json|lognormal|repeats=5": {
+    "top_word_difference": 0.04669656551986216,
+    "auc": 0.7111111111111111,
+    "lo": 0.5755555555555556,
+    "hi": 0.8355555555555556
+  },
+  "Whale words|c4_whale_zipfexp0.8_summary.json|geometric|repeats=1": {
+    "top_word_difference": 0.09160784431471075,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp0.8_summary.json|geometric|repeats=5": {
+    "top_word_difference": 0.09160784431471075,
+    "auc": 0.9122222222222223,
+    "lo": 0.8377777777777777,
+    "hi": 0.9688888888888889
+  },
+  "Whale words|c4_whale_zipfexp1.2_summary.json|uniform|repeats=1": {
+    "top_word_difference": 0.2675439359687107,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp1.2_summary.json|uniform|repeats=5": {
+    "top_word_difference": 0.2675439359687107,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp1.2_summary.json|lognormal|repeats=1": {
+    "top_word_difference": 0.20130635493199006,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp1.2_summary.json|lognormal|repeats=5": {
+    "top_word_difference": 0.20130635493199006,
+    "auc": 0.9844444444444445,
+    "lo": 0.9566666666666667,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp1.2_summary.json|geometric|repeats=1": {
+    "top_word_difference": 0.24621763372683864,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale words|c4_whale_zipfexp1.2_summary.json|geometric|repeats=5": {
+    "top_word_difference": 0.24621763372683864,
+    "auc": 0.9988888888888889,
+    "lo": 0.9933333333333333,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_summary.json|uniform|stickiness=0": {
+    "top_word_difference": 0.22316677505194546,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_summary.json|uniform|stickiness=0.8": {
+    "top_word_difference": 0.22316677505194546,
+    "auc": 0.9866666666666667,
+    "lo": 0.9610833333333334,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_summary.json|lognormal|stickiness=0": {
+    "top_word_difference": 0.08079954650525464,
+    "auc": 0.5033333333333333,
+    "lo": 0.3588611111111111,
+    "hi": 0.6489166666666665
+  },
+  "Whale song|c4_whale_song_summary.json|lognormal|stickiness=0.8": {
+    "top_word_difference": 0.08079954650525464,
+    "auc": 0.2822222222222222,
+    "lo": 0.15333333333333332,
+    "hi": 0.4244722222222221
+  },
+  "Whale song|c4_whale_song_summary.json|geometric|stickiness=0": {
+    "top_word_difference": 0.1371034962279648,
+    "auc": 0.6111111111111112,
+    "lo": 0.46552777777777776,
+    "hi": 0.7522499999999999
+  },
+  "Whale song|c4_whale_song_summary.json|geometric|stickiness=0.8": {
+    "top_word_difference": 0.1371034962279648,
+    "auc": 0.30666666666666664,
+    "lo": 0.16775,
+    "hi": 0.4489166666666665
+  },
+  "Whale song|c4_whale_song_sigma0.5_summary.json|lognormal|stickiness=0": {
+    "top_word_difference": 0.16815078130443328,
+    "auc": 0.9977777777777778,
+    "lo": 0.99,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_sigma0.5_summary.json|lognormal|stickiness=0.8": {
+    "top_word_difference": 0.16815078130443328,
+    "auc": 0.8266666666666667,
+    "lo": 0.7055555555555556,
+    "hi": 0.92
+  },
+  "Whale song|c4_whale_song_sigma1.5_summary.json|lognormal|stickiness=0": {
+    "top_word_difference": -0.02356488986446048,
+    "auc": 0.05555555555555555,
+    "lo": 0.012222222222222223,
+    "hi": 0.12113888888888874
+  },
+  "Whale song|c4_whale_song_sigma1.5_summary.json|lognormal|stickiness=0.8": {
+    "top_word_difference": -0.02356488986446048,
+    "auc": 0.10777777777777778,
+    "lo": 0.021111111111111112,
+    "hi": 0.21894444444444414
+  },
+  "Whale song|c4_whale_song_sigma2_summary.json|lognormal|stickiness=0": {
+    "top_word_difference": -0.12360069631310189,
+    "auc": 0.03777777777777778,
+    "lo": 0.0022222222222222222,
+    "hi": 0.09666666666666666
+  },
+  "Whale song|c4_whale_song_sigma2_summary.json|lognormal|stickiness=0.8": {
+    "top_word_difference": -0.12360069631310189,
+    "auc": 0.10555555555555556,
+    "lo": 0.035527777777777776,
+    "hi": 0.19444444444444445
+  },
+  "Whale song|c4_whale_song_tail0.2_summary.json|geometric|stickiness=0": {
+    "top_word_difference": 0.1817578328266899,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_tail0.2_summary.json|geometric|stickiness=0.8": {
+    "top_word_difference": 0.1817578328266899,
+    "auc": 0.7633333333333333,
+    "lo": 0.6333333333333333,
+    "hi": 0.8811388888888887
+  },
+  "Whale song|c4_whale_song_tail0.01_summary.json|geometric|stickiness=0": {
+    "top_word_difference": 0.08188263457483763,
+    "auc": 0.025555555555555557,
+    "lo": 0.0,
+    "hi": 0.07111111111111111
+  },
+  "Whale song|c4_whale_song_tail0.01_summary.json|geometric|stickiness=0.8": {
+    "top_word_difference": 0.08188263457483763,
+    "auc": 0.058888888888888886,
+    "lo": 0.006666666666666667,
+    "hi": 0.1266944444444443
+  },
+  "Whale song|c4_whale_song_zipfexp0.8_summary.json|uniform|stickiness=0": {
+    "top_word_difference": 0.1566494246685289,
+    "auc": 0.9988888888888889,
+    "lo": 0.9933333333333333,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_zipfexp0.8_summary.json|uniform|stickiness=0.8": {
+    "top_word_difference": 0.1566494246685289,
+    "auc": 0.8533333333333334,
+    "lo": 0.7522222222222222,
+    "hi": 0.9388888888888889
+  },
+  "Whale song|c4_whale_song_zipfexp0.8_summary.json|lognormal|stickiness=0": {
+    "top_word_difference": 0.014282196121838092,
+    "auc": 0.16,
+    "lo": 0.06219444444444444,
+    "hi": 0.2677777777777778
+  },
+  "Whale song|c4_whale_song_zipfexp0.8_summary.json|lognormal|stickiness=0.8": {
+    "top_word_difference": 0.014282196121838092,
+    "auc": 0.18333333333333332,
+    "lo": 0.08772222222222222,
+    "hi": 0.3
+  },
+  "Whale song|c4_whale_song_zipfexp0.8_summary.json|geometric|stickiness=0": {
+    "top_word_difference": 0.07058614584454825,
+    "auc": 0.21333333333333335,
+    "lo": 0.09777777777777778,
+    "hi": 0.35005555555555523
+  },
+  "Whale song|c4_whale_song_zipfexp0.8_summary.json|geometric|stickiness=0.8": {
+    "top_word_difference": 0.07058614584454825,
+    "auc": 0.19555555555555557,
+    "lo": 0.09666666666666666,
+    "hi": 0.31777777777777777
+  },
+  "Whale song|c4_whale_song_zipfexp1.2_summary.json|uniform|stickiness=0": {
+    "top_word_difference": 0.2968041467621105,
+    "auc": 1.0,
+    "lo": 1.0,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_zipfexp1.2_summary.json|uniform|stickiness=0.8": {
+    "top_word_difference": 0.2968041467621105,
+    "auc": 0.9988888888888889,
+    "lo": 0.9933333333333333,
+    "hi": 1.0
+  },
+  "Whale song|c4_whale_song_zipfexp1.2_summary.json|lognormal|stickiness=0": {
+    "top_word_difference": 0.1544369182154197,
+    "auc": 0.8555555555555555,
+    "lo": 0.7466666666666667,
+    "hi": 0.943361111111111
+  },
+  "Whale song|c4_whale_song_zipfexp1.2_summary.json|lognormal|stickiness=0.8": {
+    "top_word_difference": 0.1544369182154197,
+    "auc": 0.4888888888888889,
+    "lo": 0.33666666666666667,
+    "hi": 0.6388888888888888
+  },
+  "Whale song|c4_whale_song_zipfexp1.2_summary.json|geometric|stickiness=0": {
+    "top_word_difference": 0.21074086793812985,
+    "auc": 0.92,
+    "lo": 0.8399722222222222,
+    "hi": 0.9811111111111112
+  },
+  "Whale song|c4_whale_song_zipfexp1.2_summary.json|geometric|stickiness=0.8": {
+    "top_word_difference": 0.21074086793812985,
+    "auc": 0.5055555555555555,
+    "lo": 0.3522222222222222,
+    "hi": 0.65
+  }
+}

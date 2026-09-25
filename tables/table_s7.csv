@@ -1,0 +1,13 @@
+regime,law,AUC,recall,"accuracy, all four statistics","accuracy, observed_mean_r2 only","accuracy, observed_mean_slope only","accuracy, observed_mean_unit_types only","accuracy, cuts_per_sequence only"
+"whale, independent words",geometric,0.784,0.558,0.617,0.555,0.433,0.367,0.333
+"whale, independent words",lognormal,0.739,0.259,0.617,0.555,0.433,0.367,0.333
+"whale, independent words",uniform,0.963,0.865,0.617,0.555,0.433,0.367,0.333
+"whale, independent words",zipf,0.895,0.785,0.617,0.555,0.433,0.367,0.333
+finch,geometric,0.65,0.371,0.457,0.317,0.337,0.341,0.265
+finch,lognormal,0.662,0.228,0.457,0.317,0.337,0.341,0.265
+finch,uniform,0.822,0.579,0.457,0.317,0.337,0.341,0.265
+finch,zipf,0.744,0.651,0.457,0.317,0.337,0.341,0.265
+whale song,geometric,0.798,0.574,0.619,0.438,0.346,0.296,0.395
+whale song,lognormal,0.75,0.342,0.619,0.438,0.346,0.296,0.395
+whale song,uniform,0.968,0.885,0.619,0.438,0.346,0.296,0.395
+whale song,zipf,0.844,0.674,0.619,0.438,0.346,0.296,0.395

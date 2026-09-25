@@ -1,0 +1,46 @@
+{
+  "script": "exp_pilot_c1_c4.py",
+  "args": {
+    "seeds": 20,
+    "replicates": 200,
+    "thresholds": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "baseline_threshold": 0.5,
+    "repeats": [
+      1.0,
+      5.0
+    ],
+    "n_words": 100,
+    "n_elements": 30,
+    "n_recordings": 7,
+    "tokens_per_recording": 200,
+    "base_seed": 20260912,
+    "out": "N:\\Projects\\animal_speech\\01-unit-recovery-sim\\results\\pilot_c1_c4.csv"
+  },
+  "laws": {
+    "zipf": {
+      "law": "zipf",
+      "exponent": 1.0
+    },
+    "uniform": {
+      "law": "uniform"
+    },
+    "lognormal": {
+      "law": "lognormal",
+      "sigma": 1.0
+    },
+    "geometric": {
+      "law": "geometric",
+      "ratio": 0.97
+    }
+  },
+  "unitsim_version": "0.1.0.dev0",
+  "numpy": "2.5.3",
+  "python": "3.12.10",
+  "runtime_s": 154.1,
+  "finished": "2026-09-12 15:28:08",
+  "rows": 480
+}

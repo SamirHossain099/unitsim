@@ -1,0 +1,151 @@
+regime,units,alternative,statistic,auc,ci_low,ci_high
+"whale, independent words, m = 1",true,uniform,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 1",true,uniform,tail_fraction,1.0,1.0,1.0
+"whale, independent words, m = 1",true,uniform,gof_p,1.0,1.0,1.0
+"whale, independent words, m = 1",true,uniform,lr_normalized_R,1.0,1.0,1.0
+"whale, independent words, m = 1",true,uniform,csn_alpha,0.0,0.0,0.0
+"whale, independent words, m = 1",true,lognormal,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 1",true,lognormal,tail_fraction,0.9888888888888889,0.9666388888888889,1.0
+"whale, independent words, m = 1",true,lognormal,gof_p,0.9816666666666667,0.9511111111111111,0.9989027777777777
+"whale, independent words, m = 1",true,lognormal,lr_normalized_R,0.9688888888888889,0.9166388888888889,1.0
+"whale, independent words, m = 1",true,lognormal,csn_alpha,0.0,0.0,0.0
+"whale, independent words, m = 1",true,geometric,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 1",true,geometric,tail_fraction,1.0,1.0,1.0
+"whale, independent words, m = 1",true,geometric,gof_p,1.0,1.0,1.0
+"whale, independent words, m = 1",true,geometric,lr_normalized_R,1.0,1.0,1.0
+"whale, independent words, m = 1",true,geometric,csn_alpha,0.0,0.0,0.0
+"whale, independent words, m = 1",discovered,uniform,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 1",discovered,uniform,tail_fraction,1.0,1.0,1.0
+"whale, independent words, m = 1",discovered,uniform,gof_p,0.30777777777777776,0.1788611111111111,0.45002777777777764
+"whale, independent words, m = 1",discovered,uniform,lr_normalized_R,0.9477777777777778,0.8621666666666666,1.0
+"whale, independent words, m = 1",discovered,uniform,csn_alpha,0.0,0.0,0.0
+"whale, independent words, m = 1",discovered,lognormal,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 1",discovered,lognormal,tail_fraction,0.36444444444444446,0.23775000000000002,0.5055555555555555
+"whale, independent words, m = 1",discovered,lognormal,gof_p,0.9666666666666667,0.9188611111111111,1.0
+"whale, independent words, m = 1",discovered,lognormal,lr_normalized_R,0.0,0.0,0.0
+"whale, independent words, m = 1",discovered,lognormal,csn_alpha,0.3933333333333333,0.2544444444444444,0.5433333333333333
+"whale, independent words, m = 1",discovered,geometric,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 1",discovered,geometric,tail_fraction,0.35888888888888887,0.23333333333333334,0.4955833333333332
+"whale, independent words, m = 1",discovered,geometric,gof_p,0.99,0.9688888888888889,1.0
+"whale, independent words, m = 1",discovered,geometric,lr_normalized_R,0.0,0.0,0.0
+"whale, independent words, m = 1",discovered,geometric,csn_alpha,0.23666666666666666,0.12330555555555556,0.35888888888888887
+"whale, independent words, m = 5",true,uniform,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 5",true,uniform,tail_fraction,0.9855555555555555,0.9611111111111111,1.0
+"whale, independent words, m = 5",true,uniform,gof_p,0.84,0.7261111111111112,0.9355555555555556
+"whale, independent words, m = 5",true,uniform,lr_normalized_R,0.9666666666666667,0.92,0.9977777777777778
+"whale, independent words, m = 5",true,uniform,csn_alpha,0.0,0.0,0.0
+"whale, independent words, m = 5",true,lognormal,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 5",true,lognormal,tail_fraction,0.8344444444444444,0.7144444444444444,0.9355555555555556
+"whale, independent words, m = 5",true,lognormal,gof_p,0.7944444444444444,0.68,0.8889166666666665
+"whale, independent words, m = 5",true,lognormal,lr_normalized_R,0.9077777777777778,0.82,0.9755555555555555
+"whale, independent words, m = 5",true,lognormal,csn_alpha,0.03222222222222222,0.0,0.09224999999999985
+"whale, independent words, m = 5",true,geometric,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 5",true,geometric,tail_fraction,0.89,0.7910833333333334,0.9644444444444444
+"whale, independent words, m = 5",true,geometric,gof_p,0.9288888888888889,0.8577777777777778,0.9827777777777778
+"whale, independent words, m = 5",true,geometric,lr_normalized_R,0.9955555555555555,0.9822222222222222,1.0
+"whale, independent words, m = 5",true,geometric,csn_alpha,0.0,0.0,0.0
+"whale, independent words, m = 5",discovered,uniform,loglog_r2,1.0,1.0,1.0
+"whale, independent words, m = 5",discovered,uniform,tail_fraction,0.4711111111111111,0.32998611111111115,0.6144999999999997
+"whale, independent words, m = 5",discovered,uniform,gof_p,0.6627777777777778,0.5188888888888888,0.7894861111111109
+"whale, independent words, m = 5",discovered,uniform,lr_normalized_R,0.021111111111111112,0.0,0.057777777777777775
+"whale, independent words, m = 5",discovered,uniform,csn_alpha,0.1411111111111111,0.06222222222222222,0.2411111111111111
+"whale, independent words, m = 5",discovered,lognormal,loglog_r2,0.9033333333333333,0.8210555555555555,0.9689166666666665
+"whale, independent words, m = 5",discovered,lognormal,tail_fraction,0.36333333333333334,0.233875,0.5061249999999999
+"whale, independent words, m = 5",discovered,lognormal,gof_p,0.6427777777777778,0.4966527777777778,0.7827916666666666
+"whale, independent words, m = 5",discovered,lognormal,lr_normalized_R,0.012222222222222223,0.0,0.035555555555555556
+"whale, independent words, m = 5",discovered,lognormal,csn_alpha,0.33444444444444443,0.19444444444444445,0.4811111111111111
+"whale, independent words, m = 5",discovered,geometric,loglog_r2,0.9711111111111111,0.9266666666666666,0.9955555555555555
+"whale, independent words, m = 5",discovered,geometric,tail_fraction,0.3705555555555556,0.24722222222222223,0.5039027777777777
+"whale, independent words, m = 5",discovered,geometric,gof_p,0.7088888888888889,0.5649861111111111,0.8289027777777777
+"whale, independent words, m = 5",discovered,geometric,lr_normalized_R,0.0033333333333333335,0.0,0.013333333333333334
+"whale, independent words, m = 5",discovered,geometric,csn_alpha,0.2688888888888889,0.14333333333333334,0.4088888888888889
+finch,true,uniform,loglog_r2,1.0,1.0,1.0
+finch,true,uniform,tail_fraction,0.5,0.5,0.5
+finch,true,uniform,gof_p,0.9822222222222222,0.9533333333333334,1.0
+finch,true,uniform,lr_normalized_R,0.9777777777777777,0.9422222222222222,1.0
+finch,true,uniform,csn_alpha,0.0,0.0,0.0
+finch,true,lognormal,loglog_r2,1.0,1.0,1.0
+finch,true,lognormal,tail_fraction,0.5,0.5,0.5
+finch,true,lognormal,gof_p,0.9522222222222222,0.8922222222222222,0.9922222222222222
+finch,true,lognormal,lr_normalized_R,0.9644444444444444,0.9144444444444444,0.9977777777777778
+finch,true,lognormal,csn_alpha,0.9955555555555555,0.9833333333333333,1.0
+finch,true,geometric,loglog_r2,1.0,1.0,1.0
+finch,true,geometric,tail_fraction,0.5,0.5,0.5
+finch,true,geometric,gof_p,0.9666666666666667,0.9210833333333334,0.9955555555555555
+finch,true,geometric,lr_normalized_R,0.9988888888888889,0.9933333333333333,1.0
+finch,true,geometric,csn_alpha,1.0,1.0,1.0
+finch,discovered,uniform,loglog_r2,0.9222222222222223,0.8555555555555555,0.9755555555555555
+finch,discovered,uniform,tail_fraction,0.057777777777777775,0.011111111111111112,0.12336111111111096
+finch,discovered,uniform,gof_p,0.9061111111111111,0.8266666666666667,0.9677916666666666
+finch,discovered,uniform,lr_normalized_R,0.5722222222222222,0.41888888888888887,0.7255833333333331
+finch,discovered,uniform,csn_alpha,0.5766666666666667,0.42777777777777776,0.7166944444444443
+finch,discovered,lognormal,loglog_r2,0.5311111111111111,0.38330555555555557,0.6744444444444444
+finch,discovered,lognormal,tail_fraction,0.35444444444444445,0.22,0.4944722222222221
+finch,discovered,lognormal,gof_p,0.4161111111111111,0.26884722222222224,0.5616666666666666
+finch,discovered,lognormal,lr_normalized_R,0.41888888888888887,0.2766388888888889,0.5644444444444444
+finch,discovered,lognormal,csn_alpha,0.7,0.5677777777777778,0.8277777777777777
+finch,discovered,geometric,loglog_r2,0.55,0.39775,0.6922499999999998
+finch,discovered,geometric,tail_fraction,0.33,0.19333333333333333,0.48
+finch,discovered,geometric,gof_p,0.2788888888888889,0.15330555555555556,0.41336111111111096
+finch,discovered,geometric,lr_normalized_R,0.35777777777777775,0.23105555555555554,0.497833333333333
+finch,discovered,geometric,csn_alpha,0.6477777777777778,0.5044444444444445,0.7844722222222221
+"whale song, s = 0",true,uniform,loglog_r2,1.0,1.0,1.0
+"whale song, s = 0",true,uniform,tail_fraction,0.4411111111111111,0.2894305555555556,0.5950138888888887
+"whale song, s = 0",true,uniform,gof_p,0.9977777777777778,0.9888888888888889,1.0
+"whale song, s = 0",true,uniform,lr_normalized_R,1.0,1.0,1.0
+"whale song, s = 0",true,uniform,csn_alpha,0.0,0.0,0.0
+"whale song, s = 0",true,lognormal,loglog_r2,1.0,1.0,1.0
+"whale song, s = 0",true,lognormal,tail_fraction,0.9322222222222222,0.8633333333333333,0.9833333333333333
+"whale song, s = 0",true,lognormal,gof_p,0.9711111111111111,0.9177777777777778,1.0
+"whale song, s = 0",true,lognormal,lr_normalized_R,0.88,0.7688611111111111,0.9633333333333334
+"whale song, s = 0",true,lognormal,csn_alpha,0.15666666666666668,0.06438888888888888,0.2666944444444443
+"whale song, s = 0",true,geometric,loglog_r2,1.0,1.0,1.0
+"whale song, s = 0",true,geometric,tail_fraction,0.7938888888888889,0.6738472222222222,0.8989166666666665
+"whale song, s = 0",true,geometric,gof_p,1.0,1.0,1.0
+"whale song, s = 0",true,geometric,lr_normalized_R,1.0,1.0,1.0
+"whale song, s = 0",true,geometric,csn_alpha,0.35444444444444445,0.20330555555555557,0.5133611111111109
+"whale song, s = 0",discovered,uniform,loglog_r2,1.0,1.0,1.0
+"whale song, s = 0",discovered,uniform,tail_fraction,0.3111111111111111,0.18330555555555555,0.4466944444444443
+"whale song, s = 0",discovered,uniform,gof_p,0.7472222222222222,0.6222222222222222,0.8661249999999999
+"whale song, s = 0",discovered,uniform,lr_normalized_R,0.7122222222222222,0.5710833333333334,0.8455833333333331
+"whale song, s = 0",discovered,uniform,csn_alpha,0.1,0.02,0.20777777777777778
+"whale song, s = 0",discovered,lognormal,loglog_r2,0.4777777777777778,0.32222222222222224,0.6311388888888887
+"whale song, s = 0",discovered,lognormal,tail_fraction,0.36333333333333334,0.22777777777777777,0.5122499999999999
+"whale song, s = 0",discovered,lognormal,gof_p,0.625,0.47273611111111113,0.76
+"whale song, s = 0",discovered,lognormal,lr_normalized_R,0.5833333333333334,0.4388888888888889,0.7311388888888888
+"whale song, s = 0",discovered,lognormal,csn_alpha,0.6688888888888889,0.5255555555555556,0.7955555555555556
+"whale song, s = 0",discovered,geometric,loglog_r2,0.47888888888888886,0.3299722222222222,0.6322222222222222
+"whale song, s = 0",discovered,geometric,tail_fraction,0.3811111111111111,0.2411111111111111,0.5233611111111109
+"whale song, s = 0",discovered,geometric,gof_p,0.6683333333333333,0.5272083333333334,0.8011111111111111
+"whale song, s = 0",discovered,geometric,lr_normalized_R,0.6022222222222222,0.45108333333333334,0.7488888888888889
+"whale song, s = 0",discovered,geometric,csn_alpha,0.7355555555555555,0.6033055555555557,0.8566666666666667
+"whale song, s = 0.8",true,uniform,loglog_r2,1.0,1.0,1.0
+"whale song, s = 0.8",true,uniform,tail_fraction,0.7588888888888888,0.6366111111111111,0.8711111111111111
+"whale song, s = 0.8",true,uniform,gof_p,0.9955555555555555,0.9844444444444445,1.0
+"whale song, s = 0.8",true,uniform,lr_normalized_R,0.9955555555555555,0.9822222222222222,1.0
+"whale song, s = 0.8",true,uniform,csn_alpha,0.0,0.0,0.0
+"whale song, s = 0.8",true,lognormal,loglog_r2,1.0,1.0,1.0
+"whale song, s = 0.8",true,lognormal,tail_fraction,0.8,0.6733055555555556,0.9033333333333333
+"whale song, s = 0.8",true,lognormal,gof_p,0.97,0.9133333333333333,1.0
+"whale song, s = 0.8",true,lognormal,lr_normalized_R,0.8477777777777777,0.7388611111111112,0.9355833333333332
+"whale song, s = 0.8",true,lognormal,csn_alpha,0.15666666666666668,0.06666666666666667,0.2678055555555554
+"whale song, s = 0.8",true,geometric,loglog_r2,1.0,1.0,1.0
+"whale song, s = 0.8",true,geometric,tail_fraction,0.6838888888888889,0.5399722222222223,0.8122222222222222
+"whale song, s = 0.8",true,geometric,gof_p,1.0,1.0,1.0
+"whale song, s = 0.8",true,geometric,lr_normalized_R,1.0,1.0,1.0
+"whale song, s = 0.8",true,geometric,csn_alpha,0.2588888888888889,0.1411111111111111,0.38
+"whale song, s = 0.8",discovered,uniform,loglog_r2,0.9055555555555556,0.8277777777777777,0.9633333333333334
+"whale song, s = 0.8",discovered,uniform,tail_fraction,0.15333333333333332,0.06111111111111111,0.26224999999999987
+"whale song, s = 0.8",discovered,uniform,gof_p,0.7288888888888889,0.5966666666666667,0.8489166666666665
+"whale song, s = 0.8",discovered,uniform,lr_normalized_R,0.3566666666666667,0.22111111111111112,0.5
+"whale song, s = 0.8",discovered,uniform,csn_alpha,0.49666666666666665,0.34775,0.6544722222222221
+"whale song, s = 0.8",discovered,lognormal,loglog_r2,0.29,0.17,0.4244722222222221
+"whale song, s = 0.8",discovered,lognormal,tail_fraction,0.29888888888888887,0.17775000000000002,0.433361111111111
+"whale song, s = 0.8",discovered,lognormal,gof_p,0.5238888888888888,0.3677638888888889,0.6750138888888888
+"whale song, s = 0.8",discovered,lognormal,lr_normalized_R,0.45111111111111113,0.30444444444444446,0.5966666666666667
+"whale song, s = 0.8",discovered,lognormal,csn_alpha,0.6822222222222222,0.5333333333333333,0.8177777777777778
+"whale song, s = 0.8",discovered,geometric,loglog_r2,0.2966666666666667,0.1688888888888889,0.4366944444444443
+"whale song, s = 0.8",discovered,geometric,tail_fraction,0.37555555555555553,0.23219444444444445,0.5166666666666667
+"whale song, s = 0.8",discovered,geometric,gof_p,0.4816666666666667,0.3327638888888889,0.6333611111111109
+"whale song, s = 0.8",discovered,geometric,lr_normalized_R,0.38222222222222224,0.24666666666666667,0.5378055555555554
+"whale song, s = 0.8",discovered,geometric,csn_alpha,0.6588888888888889,0.516638888888889,0.7922499999999999

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it, and the paper it accompanies."
+title: unitsim
+abstract: >-
+  Ground-truth simulation for unit discovery in animal vocal sequences: generators whose lexicon,
+  frequency law and song structure are known, a reference implementation of the published
+  transitional-probability segmentation and its shuffled, rotated and bigram baselines, discrete
+  power-law fitting, and a calibration that turns the statistics such a pipeline reports into a
+  posterior over frequency laws with an explicit not-identifiable outcome.
+type: software
+authors:
+  - family-names: Hossain
+    given-names: Samir
+    email: samir.hossain@ttu.edu
+    orcid: "https://orcid.org/0009-0003-8986-0946"
+    affiliation: "Department of Electrical and Computer Engineering, Texas Tech University"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/SamirHossain099/unitsim"
+keywords:
+  - bioacoustics
+  - animal communication
+  - transitional probability
+  - segmentation
+  - Zipf's law
+  - power law
+  - simulation
+  - ground truth

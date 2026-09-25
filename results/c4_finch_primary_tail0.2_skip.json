@@ -1,0 +1,80 @@
+{
+  "script": "exp_c4_inference_unit.py",
+  "args": {
+    "regime": "finch",
+    "undefined": "skip",
+    "datasets": 30,
+    "replicates": 200,
+    "threshold": 0.5,
+    "laws": [
+      "zipf",
+      "geometric"
+    ],
+    "repeats": [
+      1.0
+    ],
+    "n_words": 100,
+    "n_elements": 30,
+    "length_range": [
+      2,
+      6
+    ],
+    "finch_n_words": 10,
+    "finch_n_elements": 8,
+    "finch_length_range": [
+      2,
+      4
+    ],
+    "finch_tokens_per_bout": 15,
+    "zipf_exponent": 1.0,
+    "lognormal_sigma": 1.0,
+    "geometric_tail": 0.2,
+    "base_seed": 20260912,
+    "out": "N:\\Projects\\animal_speech\\01-unit-recovery-sim\\results\\c4_finch_primary_tail0.2_skip.csv"
+  },
+  "whale_years": [
+    [
+      4,
+      1053
+    ],
+    [
+      6,
+      2028
+    ],
+    [
+      6,
+      3351
+    ],
+    [
+      6,
+      2664
+    ],
+    [
+      7,
+      5765
+    ],
+    [
+      12,
+      13251
+    ],
+    [
+      7,
+      8469
+    ],
+    [
+      7,
+      9179
+    ]
+  ],
+  "finch": {
+    "birds": 6,
+    "recordings_per_bird": 5,
+    "bouts_per_recording": 10
+  },
+  "unitsim_version": "0.1.0.dev0",
+  "numpy": "2.5.3",
+  "python": "3.12.10",
+  "runtime_s": 546.6,
+  "finished": "2026-09-12 20:38:20",
+  "rows": 60
+}

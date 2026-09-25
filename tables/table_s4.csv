@@ -1,0 +1,221 @@
+regime,level,change,alternative,statistic,auc,ci_low,ci_high
+"whale, independent words",m = 1,lognormal sigma 0.5,lognormal,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,lognormal sigma 0.5,lognormal,shuffle_z,0.8,0.6766666666666666,0.9022222222222223
+"whale, independent words",m = 1,lognormal sigma 0.5,lognormal,rotate_z,0.9166666666666666,0.8411111111111111,0.9755555555555555
+"whale, independent words",m = 1,lognormal sigma 0.5,lognormal,bigram_z,0.7455555555555555,0.6099444444444444,0.87
+"whale, independent words",m = 5,lognormal sigma 0.5,lognormal,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 5,lognormal sigma 0.5,lognormal,shuffle_z,0.2411111111111111,0.13333333333333333,0.373361111111111
+"whale, independent words",m = 5,lognormal sigma 0.5,lognormal,rotate_z,0.4822222222222222,0.3333333333333333,0.6277777777777778
+"whale, independent words",m = 5,lognormal sigma 0.5,lognormal,bigram_z,0.0,0.0,0.0
+"whale, independent words",m = 1,lognormal sigma 1.5,lognormal,observed_mean_r2,0.5966666666666667,0.44555555555555554,0.7389166666666666
+"whale, independent words",m = 1,lognormal sigma 1.5,lognormal,shuffle_z,0.3811111111111111,0.23666666666666666,0.5355833333333332
+"whale, independent words",m = 1,lognormal sigma 1.5,lognormal,rotate_z,0.6266666666666667,0.48330555555555554,0.7655833333333332
+"whale, independent words",m = 1,lognormal sigma 1.5,lognormal,bigram_z,0.8688888888888889,0.76,0.9522222222222222
+"whale, independent words",m = 5,lognormal sigma 1.5,lognormal,observed_mean_r2,0.5466666666666666,0.4066388888888889,0.6977777777777778
+"whale, independent words",m = 5,lognormal sigma 1.5,lognormal,shuffle_z,0.39222222222222225,0.25552777777777774,0.5422222222222223
+"whale, independent words",m = 5,lognormal sigma 1.5,lognormal,rotate_z,0.5066666666666667,0.36330555555555555,0.6466944444444442
+"whale, independent words",m = 5,lognormal sigma 1.5,lognormal,bigram_z,0.49666666666666665,0.34444444444444444,0.6422222222222222
+"whale, independent words",m = 1,lognormal sigma 2,lognormal,observed_mean_r2,0.22333333333333333,0.1066388888888889,0.3488888888888889
+"whale, independent words",m = 1,lognormal sigma 2,lognormal,shuffle_z,0.6466666666666666,0.5033055555555556,0.7844444444444445
+"whale, independent words",m = 1,lognormal sigma 2,lognormal,rotate_z,0.8666666666666667,0.7633333333333333,0.9477777777777778
+"whale, independent words",m = 1,lognormal sigma 2,lognormal,bigram_z,0.9844444444444445,0.9588888888888889,1.0
+"whale, independent words",m = 5,lognormal sigma 2,lognormal,observed_mean_r2,0.1988888888888889,0.09886111111111111,0.3166944444444443
+"whale, independent words",m = 5,lognormal sigma 2,lognormal,shuffle_z,0.7188888888888889,0.59,0.8377777777777777
+"whale, independent words",m = 5,lognormal sigma 2,lognormal,rotate_z,0.5722222222222222,0.42777777777777776,0.7077777777777777
+"whale, independent words",m = 5,lognormal sigma 2,lognormal,bigram_z,0.9111111111111111,0.8366666666666667,0.9677777777777777
+"whale, independent words",m = 1,geometric tail 0.2,geometric,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,geometric tail 0.2,geometric,shuffle_z,0.77,0.6444166666666667,0.8744444444444445
+"whale, independent words",m = 1,geometric tail 0.2,geometric,rotate_z,0.9655555555555555,0.9177777777777778,0.9988888888888889
+"whale, independent words",m = 1,geometric tail 0.2,geometric,bigram_z,0.6855555555555556,0.5366666666666666,0.8211388888888888
+"whale, independent words",m = 5,geometric tail 0.2,geometric,observed_mean_r2,0.9988888888888889,0.9933333333333333,1.0
+"whale, independent words",m = 5,geometric tail 0.2,geometric,shuffle_z,0.31222222222222223,0.18216666666666667,0.44666666666666666
+"whale, independent words",m = 5,geometric tail 0.2,geometric,rotate_z,0.5788888888888889,0.43,0.7122222222222222
+"whale, independent words",m = 5,geometric tail 0.2,geometric,bigram_z,0.005555555555555556,0.0,0.02
+"whale, independent words",m = 1,geometric tail 0.01,geometric,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,geometric tail 0.01,geometric,shuffle_z,0.7655555555555555,0.6355555555555555,0.8766944444444443
+"whale, independent words",m = 1,geometric tail 0.01,geometric,rotate_z,0.8788888888888889,0.78,0.9555833333333332
+"whale, independent words",m = 1,geometric tail 0.01,geometric,bigram_z,0.9611111111111111,0.91,0.9966666666666667
+"whale, independent words",m = 5,geometric tail 0.01,geometric,observed_mean_r2,0.9244444444444444,0.8511111111111112,0.9811111111111112
+"whale, independent words",m = 5,geometric tail 0.01,geometric,shuffle_z,0.2388888888888889,0.12777777777777777,0.36224999999999985
+"whale, independent words",m = 5,geometric tail 0.01,geometric,rotate_z,0.4711111111111111,0.32222222222222224,0.6200277777777776
+"whale, independent words",m = 5,geometric tail 0.01,geometric,bigram_z,0.044444444444444446,0.01,0.1
+"whale, independent words",m = 1,Zipf exponent 0.8,uniform,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,Zipf exponent 0.8,uniform,shuffle_z,0.9,0.8144166666666667,0.9644444444444444
+"whale, independent words",m = 1,Zipf exponent 0.8,uniform,rotate_z,1.0,1.0,1.0
+"whale, independent words",m = 1,Zipf exponent 0.8,uniform,bigram_z,0.9911111111111112,0.9733333333333334,1.0
+"whale, independent words",m = 1,Zipf exponent 0.8,lognormal,observed_mean_r2,0.9422222222222222,0.8755555555555555,0.9888888888888889
+"whale, independent words",m = 1,Zipf exponent 0.8,lognormal,shuffle_z,0.6488888888888888,0.5021944444444445,0.7866666666666666
+"whale, independent words",m = 1,Zipf exponent 0.8,lognormal,rotate_z,0.5855555555555556,0.4311111111111111,0.7344444444444445
+"whale, independent words",m = 1,Zipf exponent 0.8,lognormal,bigram_z,0.7977777777777778,0.6733333333333333,0.8988888888888888
+"whale, independent words",m = 1,Zipf exponent 0.8,geometric,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,Zipf exponent 0.8,geometric,shuffle_z,0.6833333333333333,0.5488888888888889,0.8144444444444444
+"whale, independent words",m = 1,Zipf exponent 0.8,geometric,rotate_z,0.8933333333333333,0.8033333333333333,0.9577777777777777
+"whale, independent words",m = 1,Zipf exponent 0.8,geometric,bigram_z,0.9344444444444444,0.8633333333333333,0.9811111111111112
+"whale, independent words",m = 5,Zipf exponent 0.8,uniform,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 5,Zipf exponent 0.8,uniform,shuffle_z,0.41,0.26219444444444445,0.56
+"whale, independent words",m = 5,Zipf exponent 0.8,uniform,rotate_z,0.6455555555555555,0.49441666666666667,0.7766666666666666
+"whale, independent words",m = 5,Zipf exponent 0.8,uniform,bigram_z,0.022222222222222223,0.0011111111111111111,0.05555555555555555
+"whale, independent words",m = 5,Zipf exponent 0.8,lognormal,observed_mean_r2,0.7111111111111111,0.5755555555555556,0.8355555555555556
+"whale, independent words",m = 5,Zipf exponent 0.8,lognormal,shuffle_z,0.43666666666666665,0.28886111111111107,0.5811111111111111
+"whale, independent words",m = 5,Zipf exponent 0.8,lognormal,rotate_z,0.5966666666666667,0.4499722222222222,0.7355833333333331
+"whale, independent words",m = 5,Zipf exponent 0.8,lognormal,bigram_z,0.31333333333333335,0.18666666666666668,0.45222222222222225
+"whale, independent words",m = 5,Zipf exponent 0.8,geometric,observed_mean_r2,0.9122222222222223,0.8377777777777777,0.9688888888888889
+"whale, independent words",m = 5,Zipf exponent 0.8,geometric,shuffle_z,0.3466666666666667,0.21222222222222223,0.49666666666666665
+"whale, independent words",m = 5,Zipf exponent 0.8,geometric,rotate_z,0.4922222222222222,0.34444444444444444,0.6378055555555554
+"whale, independent words",m = 5,Zipf exponent 0.8,geometric,bigram_z,0.07444444444444444,0.009972222222222224,0.16002777777777763
+"whale, independent words",m = 1,Zipf exponent 1.2,uniform,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,Zipf exponent 1.2,uniform,shuffle_z,0.9233333333333333,0.84,0.98
+"whale, independent words",m = 1,Zipf exponent 1.2,uniform,rotate_z,1.0,1.0,1.0
+"whale, independent words",m = 1,Zipf exponent 1.2,uniform,bigram_z,0.29888888888888887,0.16777777777777778,0.443361111111111
+"whale, independent words",m = 1,Zipf exponent 1.2,lognormal,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,Zipf exponent 1.2,lognormal,shuffle_z,0.6811111111111111,0.5311111111111111,0.8111111111111111
+"whale, independent words",m = 1,Zipf exponent 1.2,lognormal,rotate_z,0.3566666666666667,0.22108333333333335,0.5011111111111111
+"whale, independent words",m = 1,Zipf exponent 1.2,lognormal,bigram_z,0.08,0.02666666666666667,0.15
+"whale, independent words",m = 1,Zipf exponent 1.2,geometric,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 1,Zipf exponent 1.2,geometric,shuffle_z,0.7077777777777777,0.5644444444444444,0.824472222222222
+"whale, independent words",m = 1,Zipf exponent 1.2,geometric,rotate_z,0.7611111111111111,0.6355277777777778,0.8700277777777776
+"whale, independent words",m = 1,Zipf exponent 1.2,geometric,bigram_z,0.22666666666666666,0.1111111111111111,0.3578055555555554
+"whale, independent words",m = 5,Zipf exponent 1.2,uniform,observed_mean_r2,1.0,1.0,1.0
+"whale, independent words",m = 5,Zipf exponent 1.2,uniform,shuffle_z,0.20333333333333334,0.09,0.3188888888888889
+"whale, independent words",m = 5,Zipf exponent 1.2,uniform,rotate_z,0.4577777777777778,0.3055555555555556,0.6055555555555555
+"whale, independent words",m = 5,Zipf exponent 1.2,uniform,bigram_z,0.0,0.0,0.0
+"whale, independent words",m = 5,Zipf exponent 1.2,lognormal,observed_mean_r2,0.9844444444444445,0.9566666666666667,1.0
+"whale, independent words",m = 5,Zipf exponent 1.2,lognormal,shuffle_z,0.2477777777777778,0.12886111111111112,0.38
+"whale, independent words",m = 5,Zipf exponent 1.2,lognormal,rotate_z,0.4088888888888889,0.2644444444444444,0.5611388888888887
+"whale, independent words",m = 5,Zipf exponent 1.2,lognormal,bigram_z,0.0,0.0,0.0
+"whale, independent words",m = 5,Zipf exponent 1.2,geometric,observed_mean_r2,0.9988888888888889,0.9933333333333333,1.0
+"whale, independent words",m = 5,Zipf exponent 1.2,geometric,shuffle_z,0.16777777777777778,0.07,0.28888888888888886
+"whale, independent words",m = 5,Zipf exponent 1.2,geometric,rotate_z,0.3,0.17775000000000002,0.44222222222222224
+"whale, independent words",m = 5,Zipf exponent 1.2,geometric,bigram_z,0.0,0.0,0.0
+finch,,lognormal sigma 0.5,lognormal,observed_mean_r2,0.8277777777777777,0.7155555555555555,0.9233333333333333
+finch,,lognormal sigma 0.5,lognormal,shuffle_z,0.5,0.3543888888888889,0.6522222222222223
+finch,,lognormal sigma 0.5,lognormal,rotate_z,0.4,0.2611111111111111,0.543361111111111
+finch,,lognormal sigma 0.5,lognormal,bigram_z,0.39111111111111113,0.25666666666666665,0.5388888888888889
+finch,,lognormal sigma 1.5,lognormal,observed_mean_r2,0.6866666666666666,0.5466388888888889,0.8188888888888889
+finch,,lognormal sigma 1.5,lognormal,shuffle_z,0.7111111111111111,0.5755555555555556,0.8322222222222222
+finch,,lognormal sigma 1.5,lognormal,rotate_z,0.8133333333333334,0.6988888888888889,0.91
+finch,,lognormal sigma 1.5,lognormal,bigram_z,0.8022222222222222,0.6821944444444444,0.9055555555555556
+finch,,lognormal sigma 2,lognormal,observed_mean_r2,0.76,0.6310833333333333,0.8778055555555554
+finch,,lognormal sigma 2,lognormal,shuffle_z,0.7933333333333333,0.6711111111111111,0.8944444444444445
+finch,,lognormal sigma 2,lognormal,rotate_z,0.9277777777777778,0.8566666666666667,0.9833333333333333
+finch,,lognormal sigma 2,lognormal,bigram_z,0.8355555555555556,0.7233333333333334,0.9266944444444443
+finch,,geometric tail 0.2,geometric,observed_mean_r2,0.8055555555555556,0.6855277777777778,0.9088888888888889
+finch,,geometric tail 0.2,geometric,shuffle_z,0.5388888888888889,0.38555555555555554,0.6856111111111108
+finch,,geometric tail 0.2,geometric,rotate_z,0.45111111111111113,0.31444444444444447,0.6022222222222222
+finch,,geometric tail 0.2,geometric,bigram_z,0.37,0.23108333333333334,0.5055555555555555
+finch,,geometric tail 0.01,geometric,observed_mean_r2,0.56,0.4122222222222222,0.7155833333333331
+finch,,geometric tail 0.01,geometric,shuffle_z,0.8288888888888889,0.7033055555555556,0.9277777777777778
+finch,,geometric tail 0.01,geometric,rotate_z,0.8755555555555555,0.77775,0.9511111111111111
+finch,,geometric tail 0.01,geometric,bigram_z,0.8677777777777778,0.7533055555555556,0.9522222222222222
+finch,,Zipf exponent 0.8,uniform,observed_mean_r2,0.9511111111111111,0.886638888888889,0.9955555555555555
+finch,,Zipf exponent 0.8,uniform,shuffle_z,0.44666666666666666,0.30774999999999997,0.5966944444444443
+finch,,Zipf exponent 0.8,uniform,rotate_z,0.63,0.48441666666666666,0.7633333333333333
+finch,,Zipf exponent 0.8,uniform,bigram_z,0.41333333333333333,0.26663888888888887,0.5589166666666665
+finch,,Zipf exponent 0.8,lognormal,observed_mean_r2,0.4855555555555556,0.3466666666666667,0.6289444444444442
+finch,,Zipf exponent 0.8,lognormal,shuffle_z,0.6177777777777778,0.4677777777777778,0.7611111111111111
+finch,,Zipf exponent 0.8,lognormal,rotate_z,0.62,0.4643888888888889,0.7588888888888888
+finch,,Zipf exponent 0.8,lognormal,bigram_z,0.6277777777777778,0.48441666666666666,0.7633611111111109
+finch,,Zipf exponent 0.8,geometric,observed_mean_r2,0.4922222222222222,0.3377777777777778,0.6422222222222222
+finch,,Zipf exponent 0.8,geometric,shuffle_z,0.6744444444444444,0.5344166666666668,0.8144444444444444
+finch,,Zipf exponent 0.8,geometric,rotate_z,0.7055555555555556,0.58,0.8288888888888889
+finch,,Zipf exponent 0.8,geometric,bigram_z,0.6977777777777778,0.5533333333333333,0.8322499999999998
+finch,,Zipf exponent 1.2,uniform,observed_mean_r2,0.9911111111111112,0.9688888888888889,1.0
+finch,,Zipf exponent 1.2,uniform,shuffle_z,0.3477777777777778,0.21219444444444446,0.4866944444444443
+finch,,Zipf exponent 1.2,uniform,rotate_z,0.5177777777777778,0.36774999999999997,0.6689166666666665
+finch,,Zipf exponent 1.2,uniform,bigram_z,0.25555555555555554,0.13444444444444445,0.38666666666666666
+finch,,Zipf exponent 1.2,lognormal,observed_mean_r2,0.7222222222222222,0.5977222222222222,0.8411111111111111
+finch,,Zipf exponent 1.2,lognormal,shuffle_z,0.5322222222222223,0.38555555555555554,0.6844444444444444
+finch,,Zipf exponent 1.2,lognormal,rotate_z,0.49444444444444446,0.3388888888888889,0.6488888888888888
+finch,,Zipf exponent 1.2,lognormal,bigram_z,0.45555555555555555,0.30444444444444446,0.6000277777777776
+finch,,Zipf exponent 1.2,geometric,observed_mean_r2,0.6966666666666667,0.5577500000000001,0.8244444444444444
+finch,,Zipf exponent 1.2,geometric,shuffle_z,0.5577777777777778,0.4088611111111111,0.7022222222222222
+finch,,Zipf exponent 1.2,geometric,rotate_z,0.6033333333333334,0.4633055555555555,0.7477777777777778
+finch,,Zipf exponent 1.2,geometric,bigram_z,0.5522222222222222,0.4021944444444444,0.7022499999999998
+whale song,s = 0,lognormal sigma 0.5,lognormal,observed_mean_r2,0.9977777777777778,0.99,1.0
+whale song,s = 0,lognormal sigma 0.5,lognormal,shuffle_z,0.8,0.6755277777777778,0.9011388888888887
+whale song,s = 0,lognormal sigma 0.5,lognormal,rotate_z,0.9522222222222222,0.8911111111111111,0.9911111111111112
+whale song,s = 0,lognormal sigma 0.5,lognormal,bigram_z,0.8733333333333333,0.7721666666666667,0.9522222222222222
+whale song,s = 0.8,lognormal sigma 0.5,lognormal,observed_mean_r2,0.8266666666666667,0.7055555555555556,0.92
+whale song,s = 0.8,lognormal sigma 0.5,lognormal,shuffle_z,0.3622222222222222,0.23219444444444445,0.5055833333333332
+whale song,s = 0.8,lognormal sigma 0.5,lognormal,rotate_z,0.42,0.2766388888888889,0.5644444444444444
+whale song,s = 0.8,lognormal sigma 0.5,lognormal,bigram_z,0.25666666666666665,0.1388888888888889,0.39444444444444443
+whale song,s = 0,lognormal sigma 1.5,lognormal,observed_mean_r2,0.05555555555555555,0.012222222222222223,0.12113888888888874
+whale song,s = 0,lognormal sigma 1.5,lognormal,shuffle_z,0.2722222222222222,0.14777777777777779,0.4078055555555554
+whale song,s = 0,lognormal sigma 1.5,lognormal,rotate_z,0.1388888888888889,0.052222222222222225,0.2411111111111111
+whale song,s = 0,lognormal sigma 1.5,lognormal,bigram_z,0.13,0.04888888888888889,0.22444444444444445
+whale song,s = 0.8,lognormal sigma 1.5,lognormal,observed_mean_r2,0.10777777777777778,0.021111111111111112,0.21894444444444414
+whale song,s = 0.8,lognormal sigma 1.5,lognormal,shuffle_z,0.36444444444444446,0.22886111111111113,0.5133611111111109
+whale song,s = 0.8,lognormal sigma 1.5,lognormal,rotate_z,0.16666666666666666,0.06552777777777778,0.28002777777777765
+whale song,s = 0.8,lognormal sigma 1.5,lognormal,bigram_z,0.3388888888888889,0.20444444444444446,0.4744722222222221
+whale song,s = 0,lognormal sigma 2,lognormal,observed_mean_r2,0.03777777777777778,0.0022222222222222222,0.09666666666666666
+whale song,s = 0,lognormal sigma 2,lognormal,shuffle_z,0.40444444444444444,0.25775,0.5544444444444444
+whale song,s = 0,lognormal sigma 2,lognormal,rotate_z,0.08333333333333333,0.02666666666666667,0.16002777777777763
+whale song,s = 0,lognormal sigma 2,lognormal,bigram_z,0.058888888888888886,0.012222222222222223,0.12447222222222207
+whale song,s = 0.8,lognormal sigma 2,lognormal,observed_mean_r2,0.10555555555555556,0.035527777777777776,0.19444444444444445
+whale song,s = 0.8,lognormal sigma 2,lognormal,shuffle_z,0.5,0.3477777777777778,0.6544999999999997
+whale song,s = 0.8,lognormal sigma 2,lognormal,rotate_z,0.22666666666666666,0.11444444444444445,0.3500277777777776
+whale song,s = 0.8,lognormal sigma 2,lognormal,bigram_z,0.43,0.29330555555555554,0.5844722222222221
+whale song,s = 0,geometric tail 0.2,geometric,observed_mean_r2,1.0,1.0,1.0
+whale song,s = 0,geometric tail 0.2,geometric,shuffle_z,0.8911111111111111,0.7966666666666666,0.9633333333333334
+whale song,s = 0,geometric tail 0.2,geometric,rotate_z,0.95,0.8922222222222222,0.9922222222222222
+whale song,s = 0,geometric tail 0.2,geometric,bigram_z,0.8744444444444445,0.7788888888888889,0.9511388888888888
+whale song,s = 0.8,geometric tail 0.2,geometric,observed_mean_r2,0.7633333333333333,0.6333333333333333,0.8811388888888887
+whale song,s = 0.8,geometric tail 0.2,geometric,shuffle_z,0.30777777777777776,0.18222222222222223,0.44447222222222205
+whale song,s = 0.8,geometric tail 0.2,geometric,rotate_z,0.2588888888888889,0.13555555555555557,0.39111111111111113
+whale song,s = 0.8,geometric tail 0.2,geometric,bigram_z,0.16,0.06333333333333334,0.2766944444444443
+whale song,s = 0,geometric tail 0.01,geometric,observed_mean_r2,0.025555555555555557,0.0,0.07111111111111111
+whale song,s = 0,geometric tail 0.01,geometric,shuffle_z,0.07888888888888888,0.024444444444444446,0.15333333333333332
+whale song,s = 0,geometric tail 0.01,geometric,rotate_z,0.1322222222222222,0.04888888888888889,0.22777777777777777
+whale song,s = 0,geometric tail 0.01,geometric,bigram_z,0.18666666666666668,0.08108333333333333,0.29672222222222194
+whale song,s = 0.8,geometric tail 0.01,geometric,observed_mean_r2,0.058888888888888886,0.006666666666666667,0.1266944444444443
+whale song,s = 0.8,geometric tail 0.01,geometric,shuffle_z,0.22111111111111112,0.11222222222222222,0.3466666666666667
+whale song,s = 0.8,geometric tail 0.01,geometric,rotate_z,0.10333333333333333,0.034444444444444444,0.19333333333333333
+whale song,s = 0.8,geometric tail 0.01,geometric,bigram_z,0.35333333333333333,0.21888888888888888,0.5022499999999999
+whale song,s = 0,Zipf exponent 0.8,uniform,observed_mean_r2,0.9988888888888889,0.9933333333333333,1.0
+whale song,s = 0,Zipf exponent 0.8,uniform,shuffle_z,0.9233333333333333,0.8422222222222222,0.9833333333333333
+whale song,s = 0,Zipf exponent 0.8,uniform,rotate_z,0.8455555555555555,0.7433333333333333,0.9344444444444444
+whale song,s = 0,Zipf exponent 0.8,uniform,bigram_z,0.6511111111111111,0.5021666666666667,0.783361111111111
+whale song,s = 0,Zipf exponent 0.8,lognormal,observed_mean_r2,0.16,0.06219444444444444,0.2677777777777778
+whale song,s = 0,Zipf exponent 0.8,lognormal,shuffle_z,0.27666666666666667,0.15222222222222223,0.4144999999999997
+whale song,s = 0,Zipf exponent 0.8,lognormal,rotate_z,0.19333333333333333,0.09222222222222222,0.3044722222222221
+whale song,s = 0,Zipf exponent 0.8,lognormal,bigram_z,0.22111111111111112,0.10777777777777778,0.35555555555555557
+whale song,s = 0,Zipf exponent 0.8,geometric,observed_mean_r2,0.21333333333333335,0.09777777777777778,0.35005555555555523
+whale song,s = 0,Zipf exponent 0.8,geometric,shuffle_z,0.18777777777777777,0.08438888888888889,0.3088888888888889
+whale song,s = 0,Zipf exponent 0.8,geometric,rotate_z,0.24666666666666667,0.13330555555555557,0.3789166666666665
+whale song,s = 0,Zipf exponent 0.8,geometric,bigram_z,0.23333333333333334,0.11886111111111111,0.36444444444444446
+whale song,s = 0.8,Zipf exponent 0.8,uniform,observed_mean_r2,0.8533333333333334,0.7522222222222222,0.9388888888888889
+whale song,s = 0.8,Zipf exponent 0.8,uniform,shuffle_z,0.37666666666666665,0.23775000000000002,0.5233333333333333
+whale song,s = 0.8,Zipf exponent 0.8,uniform,rotate_z,0.4022222222222222,0.25552777777777774,0.5522222222222222
+whale song,s = 0.8,Zipf exponent 0.8,uniform,bigram_z,0.09444444444444444,0.022194444444444447,0.19111111111111112
+whale song,s = 0.8,Zipf exponent 0.8,lognormal,observed_mean_r2,0.18333333333333332,0.08772222222222222,0.3
+whale song,s = 0.8,Zipf exponent 0.8,lognormal,shuffle_z,0.39111111111111113,0.2477777777777778,0.5355555555555556
+whale song,s = 0.8,Zipf exponent 0.8,lognormal,rotate_z,0.2822222222222222,0.16444444444444445,0.41780555555555543
+whale song,s = 0.8,Zipf exponent 0.8,lognormal,bigram_z,0.35444444444444445,0.21888888888888888,0.5
+whale song,s = 0.8,Zipf exponent 0.8,geometric,observed_mean_r2,0.19555555555555557,0.09666666666666666,0.31777777777777777
+whale song,s = 0.8,Zipf exponent 0.8,geometric,shuffle_z,0.27555555555555555,0.15444444444444444,0.41333333333333333
+whale song,s = 0.8,Zipf exponent 0.8,geometric,rotate_z,0.21,0.10333333333333333,0.3289166666666665
+whale song,s = 0.8,Zipf exponent 0.8,geometric,bigram_z,0.26555555555555554,0.14444444444444443,0.3977777777777778
+whale song,s = 0,Zipf exponent 1.2,uniform,observed_mean_r2,1.0,1.0,1.0
+whale song,s = 0,Zipf exponent 1.2,uniform,shuffle_z,0.9544444444444444,0.89,0.9989166666666666
+whale song,s = 0,Zipf exponent 1.2,uniform,rotate_z,0.9988888888888889,0.9933333333333333,1.0
+whale song,s = 0,Zipf exponent 1.2,uniform,bigram_z,0.9477777777777778,0.8810555555555555,0.9944444444444445
+whale song,s = 0,Zipf exponent 1.2,lognormal,observed_mean_r2,0.8555555555555555,0.7466666666666667,0.943361111111111
+whale song,s = 0,Zipf exponent 1.2,lognormal,shuffle_z,0.3244444444444444,0.18327777777777776,0.4677777777777778
+whale song,s = 0,Zipf exponent 1.2,lognormal,rotate_z,0.7588888888888888,0.6255555555555555,0.8711111111111111
+whale song,s = 0,Zipf exponent 1.2,lognormal,bigram_z,0.7977777777777778,0.6644166666666667,0.9
+whale song,s = 0,Zipf exponent 1.2,geometric,observed_mean_r2,0.92,0.8399722222222222,0.9811111111111112
+whale song,s = 0,Zipf exponent 1.2,geometric,shuffle_z,0.21888888888888888,0.10444444444444445,0.3455833333333332
+whale song,s = 0,Zipf exponent 1.2,geometric,rotate_z,0.7911111111111111,0.6633055555555556,0.9000277777777776
+whale song,s = 0,Zipf exponent 1.2,geometric,bigram_z,0.7822222222222223,0.66,0.8922499999999999
+whale song,s = 0.8,Zipf exponent 1.2,uniform,observed_mean_r2,0.9988888888888889,0.9933333333333333,1.0
+whale song,s = 0.8,Zipf exponent 1.2,uniform,shuffle_z,0.2911111111111111,0.16555555555555557,0.43222222222222223
+whale song,s = 0.8,Zipf exponent 1.2,uniform,rotate_z,0.45111111111111113,0.3065833333333333,0.6066666666666667
+whale song,s = 0.8,Zipf exponent 1.2,uniform,bigram_z,0.11,0.02666666666666667,0.21336111111111097
+whale song,s = 0.8,Zipf exponent 1.2,lognormal,observed_mean_r2,0.4888888888888889,0.33666666666666667,0.6388888888888888
+whale song,s = 0.8,Zipf exponent 1.2,lognormal,shuffle_z,0.31333333333333335,0.1811111111111111,0.44666666666666666
+whale song,s = 0.8,Zipf exponent 1.2,lognormal,rotate_z,0.31666666666666665,0.19111111111111112,0.46555555555555556
+whale song,s = 0.8,Zipf exponent 1.2,lognormal,bigram_z,0.43222222222222223,0.28555555555555556,0.5811388888888888
+whale song,s = 0.8,Zipf exponent 1.2,geometric,observed_mean_r2,0.5055555555555555,0.3522222222222222,0.65
+whale song,s = 0.8,Zipf exponent 1.2,geometric,shuffle_z,0.2,0.09222222222222222,0.3278055555555554
+whale song,s = 0.8,Zipf exponent 1.2,geometric,rotate_z,0.23444444444444446,0.12219444444444444,0.3600277777777776
+whale song,s = 0.8,Zipf exponent 1.2,geometric,bigram_z,0.3233333333333333,0.19666666666666666,0.4688888888888889
