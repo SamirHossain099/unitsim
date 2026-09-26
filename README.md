@@ -66,6 +66,6 @@ none is probable enough. Its validation, including what happens when the prior m
 
 ## Citing
 
-See `CITATION.cff`. The archived release carries a DOI; cite the concept DOI to point at the latest version.
+See `CITATION.cff`. Archived on Zenodo: concept DOI [10.5281/zenodo.22960677](https://doi.org/10.5281/zenodo.22960677), which always resolves to the latest version.
 
 MIT licence.
