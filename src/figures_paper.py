@@ -353,7 +353,7 @@ def figure5():
     ax.grid(color=GRID, lw=0.5, zorder=0)
     ax.set_xlabel("Stated confidence")
     ax.set_ylabel("Share correct")
-    letter(ax, "a", "Is the confidence honest?")
+    letter(ax, "a", "Reliability")
     ax = axes[1]
     for regime, label in CAL_REGIMES:
         for prior, style in (("matched", dict(ls="-")), ("wide", dict(ls=(0, (3, 2))))):
@@ -375,7 +375,7 @@ def figure5():
     ax.grid(color=GRID, lw=0.5, zorder=0)
     ax.set_xlabel("Share of datasets given a verdict")
     ax.set_ylabel("Accuracy of those verdicts")
-    letter(ax, "b", "What abstaining buys")
+    letter(ax, "b", "Accuracy against coverage")
     handles = [Line2D([0], [0], color=CAL_COLOUR[r], lw=1.4, label=lab) for r, lab in CAL_REGIMES]
     handles += [Line2D([0], [0], color=INK_2, lw=1.4, label="matched prior"),
                 Line2D([0], [0], color=INK_2, lw=1.4, ls=(0, (3, 2)), label="wide prior")]
