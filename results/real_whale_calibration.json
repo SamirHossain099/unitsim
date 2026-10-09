@@ -1,0 +1,239 @@
+{
+  "observation": {
+    "observed_mean_r2": 0.9302888665216728,
+    "observed_mean_slope": -0.8769515920121004,
+    "observed_mean_unit_types": 423.25,
+    "cuts_per_sequence": 227.14545454545456
+  },
+  "min_typicality": 0.01,
+  "sets": {
+    "paper_song": {
+      "reference": "calibration_song.csv",
+      "n_reference": 4000,
+      "n_holdout": 4000,
+      "validation": {
+        "0.7": {
+          "accuracy": 0.61875,
+          "share_decided": 0.2505,
+          "accuracy_when_decided": 0.9171656686626747,
+          "brier": 0.4946504357663829
+        },
+        "0.9": {
+          "accuracy": 0.61875,
+          "share_decided": 0.127,
+          "accuracy_when_decided": 0.9724409448818898,
+          "brier": 0.4946504357663829
+        }
+      },
+      "holdout_reported_outside": 0.00775,
+      "real_typicality": {
+        "geometric": 0.0,
+        "lognormal": 0.0,
+        "uniform": 0.0,
+        "zipf": 0.0
+      },
+      "real_inside": false,
+      "real_posterior": {
+        "geometric": 3.627180579444207e-24,
+        "lognormal": 3.208082865283486e-53,
+        "uniform": 1.0,
+        "zipf": 3.90131127420524e-68
+      },
+      "real_verdict_0.7": null,
+      "real_verdict_0.9": null,
+      "feature_ranges": {
+        "observed_mean_r2": {
+          "min": 0.6097515687410229,
+          "max": 0.9653600932802304,
+          "share_at_or_above_observed": 0.377625
+        },
+        "observed_mean_slope": {
+          "min": -1.809943654026177,
+          "max": -0.8776110875881504,
+          "share_at_or_above_observed": 0.0
+        },
+        "observed_mean_unit_types": {
+          "min": 32.75,
+          "max": 328.875,
+          "share_at_or_above_observed": 0.0
+        },
+        "cuts_per_sequence": {
+          "min": 65.6,
+          "max": 293.25454545454545,
+          "share_at_or_above_observed": 0.09625
+        }
+      }
+    },
+    "matched_song": {
+      "reference": "real_whale_reference_song.csv",
+      "n_reference": 4000,
+      "n_holdout": 4000,
+      "validation": {
+        "0.7": {
+          "accuracy": 0.61,
+          "share_decided": 0.25675,
+          "accuracy_when_decided": 0.9055501460564752,
+          "brier": 0.49632171456393404
+        },
+        "0.9": {
+          "accuracy": 0.61,
+          "share_decided": 0.145,
+          "accuracy_when_decided": 0.9758620689655172,
+          "brier": 0.49632171456393404
+        }
+      },
+      "holdout_reported_outside": 0.002,
+      "real_typicality": {
+        "geometric": 0.0,
+        "lognormal": 0.0,
+        "uniform": 0.001,
+        "zipf": 0.0
+      },
+      "real_inside": false,
+      "real_posterior": {
+        "geometric": 6.502995354287735e-45,
+        "lognormal": 7.58939375124053e-34,
+        "uniform": 1.0,
+        "zipf": 6.788611295392519e-48
+      },
+      "real_verdict_0.7": null,
+      "real_verdict_0.9": null,
+      "feature_ranges": {
+        "observed_mean_r2": {
+          "min": 0.5343852660750728,
+          "max": 0.9642538776094488,
+          "share_at_or_above_observed": 0.212375
+        },
+        "observed_mean_slope": {
+          "min": -1.828410486610512,
+          "max": -0.832233288553447,
+          "share_at_or_above_observed": 0.0005
+        },
+        "observed_mean_unit_types": {
+          "min": 21.5,
+          "max": 209.75,
+          "share_at_or_above_observed": 0.0
+        },
+        "cuts_per_sequence": {
+          "min": 32.72727272727273,
+          "max": 309.0,
+          "share_at_or_above_observed": 0.167625
+        }
+      }
+    },
+    "matched_song_labels": {
+      "reference": "real_whale_reference_song_labels.csv",
+      "n_reference": 4000,
+      "n_holdout": 4000,
+      "validation": {
+        "0.7": {
+          "accuracy": 0.48825,
+          "share_decided": 0.0945,
+          "accuracy_when_decided": 0.8386243386243386,
+          "brier": 0.6247500726791387
+        },
+        "0.9": {
+          "accuracy": 0.48825,
+          "share_decided": 0.03825,
+          "accuracy_when_decided": 0.8562091503267973,
+          "brier": 0.6247500726791387
+        }
+      },
+      "holdout_reported_outside": 0.003,
+      "real_typicality": {
+        "geometric": 0.017,
+        "lognormal": 0.041,
+        "uniform": 0.011,
+        "zipf": 0.019
+      },
+      "real_inside": true,
+      "real_posterior": {
+        "geometric": 0.1802184284179433,
+        "lognormal": 0.514054013106889,
+        "uniform": 0.024033548894408653,
+        "zipf": 0.28169400958075896
+      },
+      "real_verdict_0.7": null,
+      "real_verdict_0.9": null,
+      "feature_ranges": {
+        "observed_mean_r2": {
+          "min": 0.5833789351235443,
+          "max": 0.9552100998375126,
+          "share_at_or_above_observed": 0.014875
+        },
+        "observed_mean_slope": {
+          "min": -1.676137286707607,
+          "max": -0.2586919983286132,
+          "share_at_or_above_observed": 0.812625
+        },
+        "observed_mean_unit_types": {
+          "min": 49.25,
+          "max": 1009.75,
+          "share_at_or_above_observed": 0.728
+        },
+        "cuts_per_sequence": {
+          "min": 53.23636363636364,
+          "max": 310.92727272727274,
+          "share_at_or_above_observed": 0.323
+        }
+      }
+    },
+    "matched_broad_labels": {
+      "reference": "real_whale_reference_broad_labels.csv",
+      "n_reference": 4000,
+      "n_holdout": 4000,
+      "validation": {
+        "0.7": {
+          "accuracy": 0.40725,
+          "share_decided": 0.04725,
+          "accuracy_when_decided": 0.7936507936507936,
+          "brier": 0.6796691128262994
+        },
+        "0.9": {
+          "accuracy": 0.40725,
+          "share_decided": 0.017,
+          "accuracy_when_decided": 0.9117647058823529,
+          "brier": 0.6796691128262994
+        }
+      },
+      "holdout_reported_outside": 0.006,
+      "real_typicality": {
+        "geometric": 0.049,
+        "lognormal": 0.218,
+        "uniform": 0.018,
+        "zipf": 0.036
+      },
+      "real_inside": true,
+      "real_posterior": {
+        "geometric": 0.1208841436010827,
+        "lognormal": 0.7004476660613764,
+        "uniform": 0.008204563241956467,
+        "zipf": 0.17046362709558444
+      },
+      "real_verdict_0.7": "lognormal",
+      "real_verdict_0.9": null,
+      "feature_ranges": {
+        "observed_mean_r2": {
+          "min": 0.5488677181725519,
+          "max": 0.9543977084215628,
+          "share_at_or_above_observed": 0.010875
+        },
+        "observed_mean_slope": {
+          "min": -1.6950806412498574,
+          "max": -0.2180072476351535,
+          "share_at_or_above_observed": 0.891125
+        },
+        "observed_mean_unit_types": {
+          "min": 41.375,
+          "max": 1112.625,
+          "share_at_or_above_observed": 0.81175
+        },
+        "cuts_per_sequence": {
+          "min": 73.34545454545454,
+          "max": 314.2181818181818,
+          "share_at_or_above_observed": 0.23875
+        }
+      }
+    }
+  }
+}

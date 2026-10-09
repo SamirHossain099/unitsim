@@ -64,6 +64,25 @@ drawn over a prior on what real song does not reveal. It returns a probability f
 none is probable enough. Its validation, including what happens when the prior misses the truth, is in
 `src/analyze_calibration.py` and in the paper.
 
+Before reading a posterior on a real corpus, check that the reference set contains it:
+`unitsim.calibrate.typicality` gives, for each law, the share of that law's reference datasets (leave-one-out
+density) that are no more typical than the observation, and `contains` applies a threshold. A posterior is a
+ratio of densities, so without this check it names a law even for a corpus no law could have produced.
+
+## Application to the published humpback corpus
+
+The humpback sequences are Data S2 of Arnon et al. (2025, *Science* 387:649), in the paper's supplementary
+materials; they are not redistributed here. Save `science.adq7055_data_s2.csv` to `refs/arnon2025_data/`, then:
+
+```
+python src/real_whale_features.py                                     # statistics of the real corpus
+python src/exp_real_whale.py --prior song_labels --n-per-law 1000 --workers 8
+python src/analyze_real_whale.py                                      # validation, containment, posterior
+```
+
+`exp_real_whale.py` takes `--prior song`, `song_labels` or `broad_labels`. The results files are included, so
+the tests check the reported numbers without the data.
+
 ## Citing
 
 See `CITATION.cff`. Archived on Zenodo: concept DOI [10.5281/zenodo.22960677](https://doi.org/10.5281/zenodo.22960677), which always resolves to the latest version.

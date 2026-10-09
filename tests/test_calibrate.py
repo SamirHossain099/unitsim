@@ -7,9 +7,11 @@ from unitsim.calibrate import (
     FEATURES,
     NotEnoughReference,
     build_reference,
+    contains,
     evaluate,
     posterior,
     reliability,
+    typicality,
     verdict,
 )
 
@@ -86,3 +88,33 @@ def test_non_finite_features_are_dropped_or_rejected():
     assert sum(ref.counts.values()) == len(rows) - 1
     with pytest.raises(ValueError):
         posterior(ref, dict(zip(FEATURES, [float("nan"), 0, 0, 0])))
+
+
+def test_a_posterior_names_a_law_even_far_outside_the_reference_and_containment_catches_it():
+    """The failure the containment check exists for: a posterior is a density ratio, so an observation no law
+    could have produced still gets a confident verdict."""
+    rng = np.random.default_rng(3)
+    ref = build_reference(separable(rng))
+    far = dict(zip(FEATURES, [60, 60, 60, 60]))
+    assert verdict(posterior(ref, far)) is not None
+    assert max(typicality(ref, far).values()) < 0.01
+    assert not contains(ref, far)
+
+
+def test_a_typical_observation_is_contained():
+    rng = np.random.default_rng(4)
+    ref = build_reference(separable(rng))
+    typ = typicality(ref, dict(zip(FEATURES, [10, 10, 10, 10])))
+    assert typ["zipf"] > 0.5 and typ["uniform"] < 0.01
+    assert contains(ref, dict(zip(FEATURES, [10, 10, 10, 10])))
+
+
+def test_typicality_is_roughly_uniform_on_fresh_draws_from_the_same_law():
+    """For new data from a law, the share of reference points less typical should be spread over [0, 1]: about
+    one draw in a hundred falls below 0.01, not one in two."""
+    rng = np.random.default_rng(5)
+    ref = build_reference(separable(rng, n=400))
+    fresh = rows_from([10, 10, 10, 10], 300, "zipf", rng)
+    shares = np.array([typicality(ref, r)["zipf"] for r in fresh])
+    assert 0.3 < shares.mean() < 0.7
+    assert np.mean(shares < 0.01) < 0.05

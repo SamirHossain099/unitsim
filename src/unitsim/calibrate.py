@@ -92,6 +92,43 @@ def posterior(reference, observation):
     return dict(zip(reference.laws, (p / p.sum()).tolist()))
 
 
+def typicality(reference, observation):
+    """How typical the observation is of each law's reference: the share of that law's reference datasets whose
+    density is no higher than the observation's.
+
+    A posterior is a ratio of densities, so it names a law even for an observation that no law could have
+    produced. This is the check that comes first on a real corpus: if the observation is less typical than
+    almost every reference dataset of every law, the reference set does not contain it and no verdict should
+    be read from it (`contains`).
+
+    Each reference dataset's density is leave-one-out: evaluated at its own point, a kernel density includes
+    that point's own kernel, and in four dimensions that inflates it enough to make about a fifth of fresh
+    draws from the same law look atypical (tests/test_calibrate.py).
+    """
+    if isinstance(observation, dict):
+        observation = [observation[f] for f in reference.features]
+    z = reference.standardise(observation)
+    if not np.all(np.isfinite(z)):
+        raise ValueError("observation contains a non-finite feature")
+    out = {}
+    for law in reference.laws:
+        kde = reference.densities[law]
+        out[law] = float(np.mean(_loo_density(kde) <= kde.pdf(z)[0]))
+    return out
+
+
+def _loo_density(kde):
+    """Density of a kernel estimate at each of its own points, leaving that point's kernel out."""
+    n, d = kde.n, kde.d
+    self_kernel = 1.0 / np.sqrt((2 * np.pi) ** d * np.linalg.det(kde.covariance))
+    return (n * kde.pdf(kde.dataset) - self_kernel) / (n - 1)
+
+
+def contains(reference, observation, min_typicality=0.01):
+    """Whether the reference set contains the observation: some law's typicality reaches `min_typicality`."""
+    return max(typicality(reference, observation).values()) >= min_typicality
+
+
 def verdict(post, min_probability=0.7):
     """The most probable law, or None when no law reaches `min_probability` ("not identifiable")."""
     law, p = max(post.items(), key=lambda kv: kv[1])

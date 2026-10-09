@@ -1,0 +1,84 @@
+{
+  "source": "refs/arnon2025_data/science.adq7055_data_s2.csv",
+  "sha256": "755e4357ce50c672e961671598299c84d074514b4c66bd436ac0c71a3ea11cff",
+  "years": [
+    {
+      "year": 2010,
+      "recordings": 4,
+      "elements": 1053,
+      "element_types": 33
+    },
+    {
+      "year": 2011,
+      "recordings": 6,
+      "elements": 2028,
+      "element_types": 59
+    },
+    {
+      "year": 2012,
+      "recordings": 6,
+      "elements": 3351,
+      "element_types": 55
+    },
+    {
+      "year": 2013,
+      "recordings": 6,
+      "elements": 2664,
+      "element_types": 54
+    },
+    {
+      "year": 2014,
+      "recordings": 7,
+      "elements": 5765,
+      "element_types": 92
+    },
+    {
+      "year": 2015,
+      "recordings": 13,
+      "elements": 14429,
+      "element_types": 64
+    },
+    {
+      "year": 2016,
+      "recordings": 6,
+      "elements": 7282,
+      "element_types": 86
+    },
+    {
+      "year": 2017,
+      "recordings": 7,
+      "elements": 9177,
+      "element_types": 87
+    }
+  ],
+  "elements_total": 45749,
+  "by_threshold": {
+    "0.25": {
+      "observed_mean_r2": 0.832494710892889,
+      "observed_undefined_groups": 0,
+      "observed_mean_slope": -0.5580833944809132,
+      "observed_mean_unit_types": 458.75,
+      "cuts_per_sequence": 136.05454545454546,
+      "elements_total": 45749,
+      "cuts_per_year": 935.375
+    },
+    "0.5": {
+      "observed_mean_r2": 0.9302888665216728,
+      "observed_undefined_groups": 0,
+      "observed_mean_slope": -0.8769515920121004,
+      "observed_mean_unit_types": 423.25,
+      "cuts_per_sequence": 227.14545454545456,
+      "elements_total": 45749,
+      "cuts_per_year": 1561.625
+    },
+    "0.75": {
+      "observed_mean_r2": 0.9535043359288549,
+      "observed_undefined_groups": 0,
+      "observed_mean_slope": -1.0816071858071097,
+      "observed_mean_unit_types": 348.75,
+      "cuts_per_sequence": 306.6181818181818,
+      "elements_total": 45749,
+      "cuts_per_year": 2108.0
+    }
+  }
+}

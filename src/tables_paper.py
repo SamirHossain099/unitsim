@@ -206,8 +206,8 @@ TABLES = [
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    parts = ["# Electronic supplementary material: tables S1-S7", "",
-             "Supplement to *Calibrating Zipfian inference from segmented animal vocal sequences with known sources*. "
+    parts = ["# Supplementary Material: Tables S1-S7", "",
+             "Supplement to *Calibrating tests of Zipf's law in segmented animal vocal sequences*. "
              "Every value is read from the results files in the accompanying code archive by `src/tables_paper.py`, "
              "and the archive's tests check that these tables regenerate identically. AUC: the probability that a "
              "randomly chosen Zipfian dataset scores higher than a randomly chosen dataset of the alternative law. "
