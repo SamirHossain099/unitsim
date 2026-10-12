@@ -11,7 +11,9 @@ Reads the C4 and C3 summaries and CSVs in results/ and writes figures/fig{1..4}_
                               accuracy bought by abstaining, under the matched and the wide prior
 
 Design (dataviz skill): at most three hues on screen, the reference palette's first three categorical slots, which
-validate all-pairs in light mode. No text is smaller than 7.5 pt (Royal Society figure rule). Text uses ink tokens; gridlines are hairlines; a vertical or horizontal line marks
+validate all-pairs in light mode. Every series also has its own marker shape (and line pattern where lines carry
+identity), so no figure depends on colour: they read in greyscale, which is how they print when colour in print is
+declined. No text is smaller than 7.5 pt (Royal Society figure rule). Text uses ink tokens; gridlines are hairlines; a vertical or horizontal line marks
 AUC 0.5; panel letters are in the artwork. Static manuscript figures, so no hover layer.
 
 Usage
@@ -51,6 +53,11 @@ GRID = "#e1e0d9"
 AXIS = "#c3c2b7"
 SLOTS = ("#2a78d6", "#eb6834", "#1baf7a")   # categorical slots 1-3, validated all-pairs
 LAW_COLOUR = {"uniform": SLOTS[0], "lognormal": SLOTS[1], "geometric": SLOTS[2]}
+#: A second encoding for every series, so identity never rests on colour alone: the figures must read in
+#: greyscale, which is how they print when colour in print is declined (Bioacoustics, 2026-10-12).
+LAW_MARKER = {"zipf": "o", "uniform": "s", "lognormal": "^", "geometric": "D"}
+SLOT_MARKER = ("o", "s", "^")
+MARKER_SIZE = {"o": 4.8, "s": 4.4, "^": 5.4, "D": 4.2}
 WIDTH = 7.2   # inches, two-column width
 
 plt.rcParams.update({
@@ -106,13 +113,19 @@ def auc_axis(ax, vertical=True):
         ax.grid(axis="y", color=GRID, lw=0.5, zorder=0)
 
 
-def interval(ax, x, y, lo, hi, colour, horizontal=True, filled=True):
+def interval(ax, x, y, lo, hi, colour, horizontal=True, filled=True, marker="o"):
     if horizontal:
         ax.plot([lo, hi], [y, y], color=colour, lw=1.4, solid_capstyle="round", zorder=2)
     else:
         ax.plot([x, x], [lo, hi], color=colour, lw=1.4, solid_capstyle="round", zorder=2)
-    ax.plot([x], [y], marker="o", ms=4.8, color=colour if filled else SURFACE, mec=colour if not filled else SURFACE,
-            mew=1.3 if not filled else 1.0, zorder=3, linestyle="none")
+    ax.plot([x], [y], marker=marker, ms=MARKER_SIZE[marker], color=colour if filled else SURFACE,
+            mec=colour if not filled else SURFACE, mew=1.3 if not filled else 1.0, zorder=3, linestyle="none")
+
+
+def key(colour, marker, label, **line):
+    """A legend entry carrying both encodings of a series."""
+    return Line2D([0], [0], lw=line.pop("lw", 0), marker=marker, ms=MARKER_SIZE[marker], color=colour,
+                  label=label, **line)
 
 
 # ---- figure 1 --------------------------------------------------------------------------------------------------------
@@ -136,14 +149,13 @@ def figure1():
             for law, dy in (("lognormal", 0.16), ("geometric", -0.16)):
                 c = auc_cell(summary, f"{law}|{level}", stat)
                 data[f"{stat}|{label}|{law}"] = c
-                interval(ax, c["auc"], y + dy, c["lo"], c["hi"], LAW_COLOUR[law])
+                interval(ax, c["auc"], y + dy, c["lo"], c["hi"], LAW_COLOUR[law], marker=LAW_MARKER[law])
         auc_axis(ax)
         ax.set_yticks(ys, [r[0] for r in REGIMES])
         ax.tick_params(axis="y", length=0, colors=INK_2)
         ax.set_xlabel("AUC, Zipf vs alternative")
         letter(ax, "abcd"[i], title)
-    handles = [Line2D([0], [0], lw=0, marker="o", ms=4.8, color=LAW_COLOUR[law], label=law)
-               for law in ("lognormal", "geometric")]
+    handles = [key(LAW_COLOUR[law], LAW_MARKER[law], law) for law in ("lognormal", "geometric")]
     fig.legend(handles=handles, loc="upper right", ncol=2, frameon=False, fontsize=7.5, bbox_to_anchor=(1.0, 1.04))
     fig.tight_layout(w_pad=0.8)
     save(fig, "fig1_published_settings", data)
@@ -167,7 +179,8 @@ def figure2():
             xs = [t + dx for t, _ in runs]
             ax.plot(xs, [c["auc"] for c in cells], color=LAW_COLOUR[law], lw=1.0, zorder=2)
             for x, c in zip(xs, cells):
-                interval(ax, x, c["auc"], c["lo"], c["hi"], LAW_COLOUR[law], horizontal=False)
+                interval(ax, x, c["auc"], c["lo"], c["hi"], LAW_COLOUR[law], horizontal=False,
+                         marker=LAW_MARKER[law])
             data[f"{title}|{law}"] = {str(t): c for (t, _), c in zip(runs, cells)}
         auc_axis(ax, vertical=False)
         ax.set_xticks([0.25, 0.5, 0.75], ["0.25", "0.5", "0.75"])
@@ -184,7 +197,8 @@ def figure2():
         if law == "zipf":
             ax.plot([t for t, _ in finch], shares, color=INK_2, lw=1.0, ls=(0, (3, 2)), marker="o", ms=3.5, zorder=3)
         else:
-            ax.plot([t for t, _ in finch], shares, color=LAW_COLOUR[law], lw=1.0, marker="o", ms=4.2, zorder=2)
+            ax.plot([t for t, _ in finch], shares, color=LAW_COLOUR[law], lw=1.0, marker=LAW_MARKER[law],
+                    ms=MARKER_SIZE[LAW_MARKER[law]], zorder=2)
     ax.set_ylim(-0.03, 1.03)
     ax.set_yticks([0, 0.25, 0.5, 0.75, 1], ["0", "25%", "50%", "75%", "100%"])
     ax.grid(axis="y", color=GRID, lw=0.5, zorder=0)
@@ -193,8 +207,7 @@ def figure2():
     ax.set_xlabel("Threshold")
     ax.set_ylabel("Shuffled recordings undefined")
     letter(ax, "c", "Finch, undefined shuffled R²")
-    handles = [Line2D([0], [0], lw=1.0, marker="o", ms=4.2, color=LAW_COLOUR[law], label=law)
-               for law in ("uniform", "lognormal", "geometric")]
+    handles = [key(LAW_COLOUR[law], LAW_MARKER[law], law, lw=1.0) for law in ("uniform", "lognormal", "geometric")]
     handles.append(Line2D([0], [0], lw=1.0, ls=(0, (3, 2)), marker="o", ms=3.5, color=INK_2, label="zipf (panel c)"))
     fig.legend(handles=handles, loc="upper right", ncol=4, frameon=False, fontsize=7.5, bbox_to_anchor=(1.0, 1.06))
     fig.tight_layout(w_pad=1.2)
@@ -249,14 +262,14 @@ def figure3():
                 data[f"{title}|{summary}|{law}|{level}"] = {"top_word_difference": diff, **c}
         for diff, c, j in points:
             dx = (-0.002, 0.002)[j]
-            interval(ax, diff + dx, c["auc"], c["lo"], c["hi"], SLOTS[j], horizontal=False)
+            interval(ax, diff + dx, c["auc"], c["lo"], c["hi"], SLOTS[j], horizontal=False, marker=SLOT_MARKER[j])
         auc_axis(ax, vertical=False)
         ax.set_xlabel("Most-frequent-word probability, Zipf minus alternative")
         if k == 0:
             ax.set_ylabel("Mean R² AUC, Zipf vs alternative")
         ax.grid(axis="x", color=GRID, lw=0.5, zorder=0)
         letter(ax, "ab"[k], title)
-        handles = [Line2D([0], [0], lw=0, marker="o", ms=4.8, color=SLOTS[j], label=level_labels[j]) for j in (0, 1)]
+        handles = [key(SLOTS[j], SLOT_MARKER[j], level_labels[j]) for j in (0, 1)]
         ax.legend(handles=handles, loc="lower right", frameon=False, fontsize=7.5)
     fig.tight_layout(w_pad=1.2)
     save(fig, "fig3_shape", data)
@@ -281,18 +294,17 @@ def figure4():
         half_line(ax)
         for y, (label, summary, level, law) in zip(ys, rows):
             cells = load(summary)["auc_zipf_vs"]
-            for source, dy, filled, colour in (("true", 0.17, True, SLOTS[0]), ("discovered", -0.17, True, SLOTS[1])):
+            for source, dy, j in (("true", 0.17, 0), ("discovered", -0.17, 1)):
                 raw = cells[f"{source}|{law}|{level}"][stat]
                 c = {"auc": raw["auc"], "lo": raw["ci95"][0], "hi": raw["ci95"][1]}
                 data[f"{stat}|{label}|{law}|{source}"] = c
-                interval(ax, c["auc"], y + dy, c["lo"], c["hi"], colour, filled=filled)
+                interval(ax, c["auc"], y + dy, c["lo"], c["hi"], SLOTS[j], marker=SLOT_MARKER[j])
         auc_axis(ax)
         ax.set_yticks(ys, [f"{label}, {law}" for label, _, _, law in rows])
         ax.tick_params(axis="y", length=0, colors=INK_2)
         ax.set_xlabel("AUC, Zipf vs alternative")
         letter(ax, "ab"[k], title)
-    handles = [Line2D([0], [0], lw=0, marker="o", ms=4.8, color=SLOTS[0], label="true word counts"),
-               Line2D([0], [0], lw=0, marker="o", ms=4.8, color=SLOTS[1], label="discovered units")]
+    handles = [key(SLOTS[0], SLOT_MARKER[0], "true word counts"), key(SLOTS[1], SLOT_MARKER[1], "discovered units")]
     fig.legend(handles=handles, loc="upper right", ncol=2, frameon=False, fontsize=7.5, bbox_to_anchor=(1.0, 1.03))
     fig.tight_layout(w_pad=1.0)
     save(fig, "fig4_powerlaw_tests", data)
@@ -303,6 +315,7 @@ def figure4():
 
 CAL_REGIMES = (("whale", "whale words"), ("finch", "finch"), ("song", "whale song"))
 CAL_COLOUR = {"whale": SLOTS[0], "finch": SLOTS[1], "song": SLOTS[2]}
+CAL_MARKER = {"whale": SLOT_MARKER[0], "finch": SLOT_MARKER[1], "song": SLOT_MARKER[2]}
 CAL_THRESHOLDS = np.round(np.arange(0.26, 0.99, 0.02), 2)
 
 
@@ -333,7 +346,7 @@ def figure5():
     ax.plot([0.25, 1], [0.25, 1], color=INK_2, lw=0.8, zorder=1)
     edges = np.array([0.25, 0.4, 0.55, 0.7, 0.85, 1.0])
     for regime, label in CAL_REGIMES:
-        for prior, style in (("matched", dict(ls="-", marker="o")), ("wide", dict(ls=(0, (3, 2)), marker="o"))):
+        for prior, style in (("matched", dict(ls="-")), ("wide", dict(ls=(0, (3, 2))))):
             conf, correct = scores[regime][prior]
             xs, ys, ns = [], [], []
             for lo, hi in zip(edges[:-1], edges[1:]):
@@ -344,7 +357,8 @@ def figure5():
                     ns.append(int(take.sum()))
             data[f"reliability|{regime}|{prior}"] = {"confidence": xs, "share_correct": ys, "n": ns}
             face = CAL_COLOUR[regime] if prior == "matched" else SURFACE
-            ax.plot(xs, ys, color=CAL_COLOUR[regime], lw=1.2, ms=4.8, mfc=face,
+            m = CAL_MARKER[regime]
+            ax.plot(xs, ys, color=CAL_COLOUR[regime], lw=1.2, marker=m, ms=MARKER_SIZE[m], mfc=face,
                     mec=CAL_COLOUR[regime], mew=1.3, zorder=2, **style)
     ax.set_xlim(0.22, 1.02)
     ax.set_ylim(0.22, 1.02)
@@ -366,7 +380,10 @@ def figure5():
                     ys.append(float(correct[take].mean()))
             data[f"decision|{regime}|{prior}"] = {"share_decided": xs, "accuracy_when_decided": ys,
                                                   "thresholds": CAL_THRESHOLDS.tolist()[:len(xs)]}
-            ax.plot(xs, ys, color=CAL_COLOUR[regime], lw=1.4, zorder=2, **style)
+            m = CAL_MARKER[regime]
+            ax.plot(xs, ys, color=CAL_COLOUR[regime], lw=1.4, zorder=2, marker=m, ms=MARKER_SIZE[m] - 0.6,
+                    markevery=max(1, len(xs) // 5), mfc=CAL_COLOUR[regime] if prior == "matched" else SURFACE,
+                    mec=CAL_COLOUR[regime], mew=1.1, **style)
     ax.axhline(0.25, color=INK_2, lw=0.8, zorder=1)
     ax.set_xlim(-0.02, 1.02)
     ax.set_ylim(0.22, 1.02)
@@ -376,9 +393,10 @@ def figure5():
     ax.set_xlabel("Share of datasets given a verdict")
     ax.set_ylabel("Accuracy of those verdicts")
     letter(ax, "b", "Accuracy against coverage")
-    handles = [Line2D([0], [0], color=CAL_COLOUR[r], lw=1.4, label=lab) for r, lab in CAL_REGIMES]
-    handles += [Line2D([0], [0], color=INK_2, lw=1.4, label="matched prior"),
-                Line2D([0], [0], color=INK_2, lw=1.4, ls=(0, (3, 2)), label="wide prior")]
+    handles = [key(CAL_COLOUR[r], CAL_MARKER[r], lab, lw=1.4) for r, lab in CAL_REGIMES]
+    handles += [Line2D([0], [0], color=INK_2, lw=1.4, marker="o", ms=4.2, label="matched prior"),
+                Line2D([0], [0], color=INK_2, lw=1.4, ls=(0, (3, 2)), marker="o", ms=4.2, mfc=SURFACE,
+                       mec=INK_2, label="wide prior")]
     fig.legend(handles=handles, loc="upper right", ncol=5, frameon=False, fontsize=7.5, bbox_to_anchor=(1.0, 1.04))
     fig.tight_layout(w_pad=1.4)
     save(fig, "fig5_calibration", data)
